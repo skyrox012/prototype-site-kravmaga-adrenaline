@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+@import "tailwindcss";
+
+body {
+    background-color: #F8F5F7;
+    color: #030806;
+    font-family: 'Mulish', sans-serif;
+}
+
+.font-jura {
+    font-family: 'Jura', sans-serif;
+}
+
+.font-mulish {
+    font-family: 'Mulish', sans-serif;
+}
