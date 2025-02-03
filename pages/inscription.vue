@@ -10,83 +10,92 @@
 
     <!-- Formulaire d'inscription -->
     <div class="container mx-auto px-6 py-12">
-      <form class="border-2 border-[#3A3A25] p-6 shadow-lg max-w-3xl mx-auto">
-        <h2 class="text-3xl text-[#D20000] font-jura font-bold mb-6 text-center">Créez votre compte</h2>
+      <form class="bg-gray-900/50 backdrop-blur-sm p-8 rounded-2xl shadow-2xl max-w-3xl mx-auto border border-gray-700">
+      <h2 class="text-4xl text-[#D20000] font-jura font-bold mb-8 text-center">Créez votre compte</h2>
 
-        <div class="mb-4">
-          <label for="trial" class="block text-lg text-white">Je souhaite suivre une séance d'essai</label>
-          <input type="checkbox" id="trial" class="mt-2" />
-          <p class="text-gray-300 mt-1">Je souhaite suivre une séance d'essai pour voir si cela me convient avant de m'inscrire</p>
+      <div class="space-y-6 mb-8">
+        <div class="p-4 bg-gray-800/50 rounded-lg hover:bg-gray-800/70 transition">
+        <label class="flex items-center space-x-3 cursor-pointer">
+          <input type="checkbox" class="w-5 h-5 accent-[#D20000]" id="trial" />
+          <span class="text-lg text-white">Je souhaite suivre une séance d'essai</span>
+        </label>
+        <p class="text-gray-400 mt-2 ml-8">Je souhaite suivre une séance d'essai pour voir si cela me convient avant de m'inscrire</p>
         </div>
 
-        <div class="mb-6">
-          <label for="full-registration" class="block text-lg text-white">Je souhaite créer mon compte</label>
-          <input type="checkbox" id="full-registration" class="mt-2" />
-          <p class="text-gray-300 mt-1">Je souhaite créer mon compte pour suivre régulièrement les cours</p>
+        <div class="p-4 bg-gray-800/50 rounded-lg hover:bg-gray-800/70 transition">
+        <label class="flex items-center space-x-3 cursor-pointer">
+          <input type="checkbox" class="w-5 h-5 accent-[#D20000]" id="full-registration" />
+          <span class="text-lg text-white">Je souhaite créer mon compte</span>
+        </label>
+        <p class="text-gray-400 mt-2 ml-8">Je souhaite créer mon compte pour suivre régulièrement les cours</p>
+        </div>
+      </div>
+
+      <div class="space-y-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="form-group">
+          <label for="email" class="text-lg text-white mb-2 block">Email *</label>
+          <input type="email" id="email" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-400 focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" required placeholder="votre@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="last-name" class="text-lg text-white mb-2 block">Nom *</label>
+          <input type="text" id="last-name" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-400 focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" required placeholder="Votre nom" />
+        </div>
         </div>
 
-        <!-- Form Fields -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
-          <div>
-            <label for="email" class="block text-lg text-white">Votre adresse email *</label>
-            <input type="email" id="email" name="email" placeholder="Votre email" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black placeholder-gray-500" required />
-          </div>
-          <div>
-            <label for="last-name" class="block text-lg text-white">Votre nom *</label>
-            <input type="text" id="last-name" name="last-name" placeholder="Votre nom" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black placeholder-gray-500" required />
-          </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="form-group">
+          <label for="first-name" class="text-lg text-white mb-2 block">Prénom *</label>
+          <input type="text" id="first-name" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-400 focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" required placeholder="Votre prénom" />
+        </div>
+        <div class="form-group">
+          <label for="dob" class="text-lg text-white mb-2 block">Date de naissance *</label>
+          <input type="date" id="dob" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" required />
+        </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
-          <div>
-            <label for="first-name" class="block text-lg text-white">Votre prénom *</label>
-            <input type="text" id="first-name" name="first-name" placeholder="Votre prénom" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black placeholder-gray-500" required />
-          </div>
-          <div>
-            <label for="dob" class="block text-lg text-white">Date de naissance *</label>
-            <input type="date" id="dob" name="dob" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black" required />
-          </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="form-group">
+          <label for="phone" class="text-lg text-white mb-2 block">GSM</label>
+          <input type="tel" id="phone" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-400 focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" placeholder="+32 XXX XX XX XX" />
+        </div>
+        <div class="form-group">
+          <label for="address" class="text-lg text-white mb-2 block">Adresse</label>
+          <input type="text" id="address" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-400 focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" placeholder="Rue et numéro" />
+        </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
-          <div>
-            <label for="phone" class="block text-lg text-white">Numéro de GSM</label>
-            <input type="text" id="phone" name="phone" placeholder="Votre numéro" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black placeholder-gray-500" />
-          </div>
-          <div>
-            <label for="address" class="block text-lg text-white">Votre adresse</label>
-            <input type="text" id="address" name="address" placeholder="Votre adresse" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black placeholder-gray-500" />
-          </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="form-group">
+          <label for="postal-code" class="text-lg text-white mb-2 block">Code postal</label>
+          <input type="text" id="postal-code" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-400 focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" placeholder="1000" />
+        </div>
+        <div class="form-group">
+          <label for="city" class="text-lg text-white mb-2 block">Localité</label>
+          <input type="text" id="city" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-400 focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" placeholder="Votre ville" />
+        </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
-          <div>
-            <label for="postal-code" class="block text-lg text-white">Votre code postal</label>
-            <input type="text" id="postal-code" name="postal-code" placeholder="Code postal" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black placeholder-gray-500" />
-          </div>
-          <div>
-            <label for="city" class="block text-lg text-white">Votre localité</label>
-            <input type="text" id="city" name="city" placeholder="Votre ville" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black placeholder-gray-500" />
-          </div>
+        <div class="form-group">
+        <label for="location" class="text-lg text-white mb-2 block">Lieu des cours *</label>
+        <input type="text" id="location" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white placeholder-gray-400 focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" required placeholder="Lieu de préférence" />
         </div>
 
-        <div class="mb-4">
-          <label for="location" class="block text-lg text-white">Lieu où vous souhaitez suivre le(s) cours *</label>
-          <input type="text" id="location" name="location" placeholder="Lieu de préférence" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black placeholder-gray-500" required />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="form-group">
+          <label for="password" class="text-lg text-white mb-2 block">Mot de passe *</label>
+          <input type="password" id="password" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" required placeholder="••••••••" />
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
-          <div>
-            <label for="password" class="block text-lg text-white">Votre mot de passe *</label>
-            <input type="password" id="password" name="password" placeholder="Mot de passe" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black" required />
-          </div>
-          <div>
-            <label for="confirm-password" class="block text-lg text-white">Confirmez le mot de passe *</label>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmer le mot de passe" class="w-full p-4 mt-2 rounded-lg bg-[#F8F5F7] text-black" required />
-          </div>
+        <div class="form-group">
+          <label for="confirm-password" class="text-lg text-white mb-2 block">Confirmation *</label>
+          <input type="password" id="confirm-password" class="w-full p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-white focus:border-[#D20000] focus:ring-1 focus:ring-[#D20000] transition" required placeholder="••••••••" />
         </div>
+        </div>
+      </div>
 
-        <button type="submit" class="w-full py-4 bg-[#D20000] text-white text-lg rounded-lg font-bold hover:bg-red-700 transition">Valider</button>
+      <button type="submit" class="w-full mt-8 py-4 bg-[#D20000] text-white text-lg rounded-lg font-bold hover:bg-red-700 transition-all transform hover:scale-[1.02] focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-gray-900">
+        Créer mon compte
+      </button>
       </form>
     </div>
   </section>
