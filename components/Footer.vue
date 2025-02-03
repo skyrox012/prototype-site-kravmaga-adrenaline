@@ -64,7 +64,7 @@
 
     <!-- Copyright -->
     <div class="text-center text-sm mt-8 font-mulish border-t border-gray-700 pt-4">
-      &copy; 2025 Krav Maga Adrenaline. Tous droits réservés.
+      &copy; 2025 Krav Maga Adrenaline. Tous droits réservés | Mention légales
     </div>
   </footer>
 </template>

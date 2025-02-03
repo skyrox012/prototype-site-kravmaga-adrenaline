@@ -20,7 +20,7 @@
       <!-- Grille des descriptions -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Renforcement musculaire -->
-        <div class="border-2 border-red-600 p-6">
+        <div class="border-2 border-red-600 p-6 hover:scale-105 transition">
           <h3 class="text-2xl font-jura text-red-600 mb-4">Renforcement musculaire</h3>
           <p class="font-mulish text-gray-300 mb-4">
             Travaillez l'efficacité musculaire pour développer force, endurance et explosivité. Une préparation de 15 minutes, adaptée à votre rythme, pour maximiser vos performances.
@@ -29,7 +29,7 @@
         </div>
 
         <!-- Les drills -->
-        <div class="border-2 border-red-600 p-6">
+        <div class="border-2 border-red-600 p-6 hover:scale-105 transition">
           <h3 class="text-2xl font-jura text-red-600 mb-4">Les drills</h3>
           <p class="font-mulish text-gray-300 mb-4">
             Développez vos réflexes et votre explosivité grâce à des exercices ciblés. Chaque drill améliore une compétence spécifique, comme le déplacement, la frappe ou la défense.
@@ -38,7 +38,7 @@
         </div>
 
         <!-- Combatives -->
-        <div class="border-2 border-red-600 p-6">
+        <div class="border-2 border-red-600 p-6 hover:scale-105 transition">
           <h3 class="text-2xl font-jura text-red-600 mb-4">Les combatives</h3>
           <p class="font-mulish text-gray-300 mb-4">
             Apprenez les techniques de frappes pour neutraliser un adversaire ou vous dégager d'une saisie. Ces techniques sont la base même du Krav Maga.
@@ -47,7 +47,7 @@
         </div>
 
         <!-- Self defense -->
-        <div class="border-2 border-red-600 p-6">
+        <div class="border-2 border-red-600 p-6 hover:scale-105 transition">
           <h3 class="text-2xl font-jura text-red-600 mb-4">Self Defense</h3>
           <p class="font-mulish text-gray-300 mb-4">
             Maîtrisez des techniques pour contrer les saisies, les étranglements, ou les menaces armées. Un apprentissage progressif pour renforcer vos réflexes naturels.
