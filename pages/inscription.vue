@@ -10,7 +10,7 @@
 
     <!-- Formulaire d'inscription -->
     <div class="container mx-auto px-6 py-12">
-      <form class="border-2 border-kaki p-6 shadow-lg max-w-3xl mx-auto">
+      <form class="border-2 border-[#3A3A25] p-6 shadow-lg max-w-3xl mx-auto">
         <h2 class="text-3xl text-[#D20000] font-jura font-bold mb-6 text-center">Créez votre compte</h2>
 
         <div class="mb-4">

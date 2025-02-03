@@ -14,14 +14,14 @@
     <div class="container mx-auto px-4 mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
 
       <!-- Cours de Bruxelles -->
-      <div class="border-2 border-kaki p-6 shadow-lg">
+      <div class="border-2 border-[#3A3A25] p-6 shadow-lg">
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Cours de Bruxelles</h3>
         <p class="font-mulish text-gray-300 mb-4">
           Les cours sont donnés dans le dojo du centre sportif de Woluwe-Saint-Pierre. Prenez les escaliers pour descendre juste en face de la caisse de la piscine (salle Judo/arts martiaux, niveau -1). Tous les derniers dimanches du mois, sparring. N'oubliez pas d'apporter votre équipement complet !
         </p>
 
         <div class="mt-6">
-          <h4 class="text-xl font-jura text-red-600 mb-2">Horaires</h4>
+          <h4 class="text-xl font-jura text-red-600 mb-2 ">Horaires</h4>
           <p class="font-mulish text-gray-300 mb-4">Dimanches : 17:00 à 19:00 (Ados/adultes uniquement)</p>
           
           <h4 class="text-xl font-jura text-red-600 mb-2">Adresse</h4>
@@ -33,7 +33,7 @@
       </div>
 
       <!-- Cours de Grez-Doiceau -->
-      <div class="border-2 border-kaki p-6 shadow-lg">
+      <div class="border-2 border-[#3A3A25] p-6 shadow-lg">
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Cours de Grez-Doiceau</h3>
         <p class="font-mulish text-gray-300 mb-4">
           Les cours sont donnés dans la salle de gymnastique de l'école communale de Grez-Doiceau. Un parking est accessible rue du Pont au Lin. Tous les derniers vendredis du mois, sparring pour le cours ados/adultes. N'oubliez pas d'apporter votre équipement complet !

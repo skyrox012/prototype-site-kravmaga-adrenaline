@@ -5,9 +5,9 @@
       <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-center p-6">
         <h1 class="text-4xl md:text-6xl font-bold text-[#D20000] font-jura">Krav Maga à Bruxelles et région de Wavre</h1>
         <p class="text-lg md:text-xl text-gray-300 mt-4">Apprenez l'art de l'autodéfense avec nos instructeurs qualifiés.</p>
-        <div class="mt-6 flex space-x-4 px-6">
+        <div class="mt-6 flex space-x-8 px-6">
           <a href="/inscription" class="bg-[#D20000] text-white px-6 py-3 rounded-xl text-lg font-bold hover:bg-red-700 transition">Séance d'essai gratuite</a>
-          <a href="/inscription" class="bg-[#49440F] text-white px-6 py-3 rounded-xl text-lg font-bold hover:bg-green-800 transition">Inscription</a>
+          <a href="/inscription" class="bg-[#3A3A25] text-white px-6 py-3 rounded-xl text-lg font-bold hover:bg-[#2b2b1c] transition">Inscription</a>
         </div>
       </div>
     </div>
@@ -31,15 +31,15 @@
       <section class="mb-12 bg-[#101010] py-10 px-10">
         <h2 class="text-3xl text-[#D20000] font-jura font-bold mb-4">Les principes du Krav Maga</h2>
         <div class="grid md:grid-cols-3 gap-6">
-          <div class="border-2 border-kaki p-6 shadow-lg hover:scale-105 transition">
+          <div class="border-2 border-[#3A3A25] p-6 shadow-lg hover:scale-105 transition">
             <h3 class="text-xl text-[#D20000] font-bold font-jura">Simplicité</h3>
             <p class="text-gray-300 mt-2">Basé sur les réflexes naturels du corps humain, le Krav Maga est facile et rapide à apprendre.</p>
           </div>
-          <div class="border-2 border-kaki p-6 shadow-lg hover:scale-105 transition">
+          <div class="border-2 border-[#3A3A25] p-6 shadow-lg hover:scale-105 transition">
             <h3 class="text-xl text-[#D20000] font-bold font-jura">Rapidité</h3>
             <p class="text-gray-300 mt-2">Défense et contre-attaque simultanées pour une efficacité maximale.</p>
           </div>
-          <div class="border-2 border-kaki p-6 shadow-lg hover:scale-105 transition">
+          <div class="border-2 border-[#3A3A25] p-6 shadow-lg hover:scale-105 transition">
             <h3 class="text-xl text-[#D20000] font-bold font-jura">Efficacité</h3>
             <p class="text-gray-300 mt-2">Techniques directes et puissantes pour neutraliser rapidement une menace.</p>
           </div>
