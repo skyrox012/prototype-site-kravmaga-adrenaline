@@ -34,35 +34,35 @@
               >Accueil</NuxtLink
             >
           </li>
-          <li class="py-2 lg:py-0">
+          <li class="py-2 lg:py-0 px-5">
             <NuxtLink
               to="/tarifs"
               class="block hover:text-red-600 transition-colors"
               >Tarifs</NuxtLink
             >
           </li>
-          <li class="py-2 lg:py-0">
+          <li class="py-2 lg:py-0 px-5">
             <NuxtLink
               to="/horaires"
               class="block hover:text-red-600 transition-colors"
               >Horaires</NuxtLink
             >
           </li>
-          <li class="py-2 lg:py-0">
+          <li class="py-2 lg:py-0 px-5">
             <NuxtLink
               to="/infos"
               class="block hover:text-red-600 transition-colors"
               >Infos</NuxtLink
             >
           </li>
-          <li class="py-2 lg:py-0">
+          <li class="py-2 lg:py-0 px-5">
             <NuxtLink
               to="/inscription"
               class="block hover:text-red-600 transition-colors"
               >Inscription</NuxtLink
             >
           </li>
-          <li class="py-2 lg:py-0">
+          <li class="py-2 lg:py-0 px-5">
             <NuxtLink
               to="#"
               class="block bg-red-600 p-2 hover:bg-red-700 transition-colors"
