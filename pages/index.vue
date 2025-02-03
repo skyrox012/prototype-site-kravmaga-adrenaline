@@ -1,27 +1,45 @@
 <template>
   <section class="bg-[#030806] text-[#F8F5F7] min-h-screen font-mulish">
-    <!-- Bannière avec effet parallax -->
-    <div class="relative w-full h-[80vh] bg-cover bg-center bg-fixed" 
-       style="background-image: url('images/image6.jpg');">
-      <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40 flex flex-col justify-center items-center text-center p-6">
-        <!-- Titre avec animation d'apparition -->
-        <h1 class="text-4xl md:text-5xl font-bold text-[#D20000] font-jura animate-fadeIn">
-          Krav Maga à Bruxelles et région de Wavre
-        </h1>
-        <!-- Sous-titre avec animation de slide -->
-        <p class="text-xl md:text-2xl text-gray-300 mt-6 animate-slideUp">
-          Apprenez l'art de l'autodéfense avec nos instructeurs qualifiés.
-        </p>
-        <!-- Boutons avec animations au hover -->
-        <div class="mt-8 flex flex-col md:flex-row gap-4 md:gap-8 w-full md:w-auto px-6">
-          <a href="/inscription" 
-             class="bg-[#D20000] text-white px-8 py-4 rounded-xl text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/50 hover:shadow-lg">
-            Séance d'essai gratuite
-          </a>
-          <a href="/inscription" 
-             class="bg-[#3A3A25] text-white px-8 py-4 rounded-xl text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-[#2b2b1c] hover:shadow-[#3A3A25]/50 hover:shadow-lg">
-            Inscription
-          </a>
+  
+    <!-- Section parallax avec overlay et contenu dynamique -->
+    <div class="relative w-full min-h-screen">
+      <!-- Background avec parallax -->
+      <div class="absolute inset-0 bg-cover bg-center bg-fixed z-0"
+           style="background-image: url('images/image_back_1_black.jpg');">
+      </div>
+
+      <!-- Contenu principal avec grid layout -->
+      <div class="relative z-10 container mx-auto px-4 h-screen">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 h-full items-center">
+          <!-- Colonne gauche avec texte -->
+          <div class="space-y-8">
+            <h1 class="text-5xl md:text-7xl font-bold text-[#D20000] font-jura leading-tight animate-fadeIn">
+              Krav Maga
+              <span class="block text-white text-3xl md:text-4xl mt-2">Bruxelles & Wavre</span>
+            </h1>
+            <p class="text-xl text-gray-300 animate-slideUp max-w-xl">
+              Découvrez l'art de l'autodéfense moderne avec nos instructeurs certifiés. 
+              Une approche pratique et efficace pour votre sécurité.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="/inscription" 
+                 class="group relative overflow-hidden bg-[#D20000] px-8 py-4 text-lg font-bold">
+                <span class="relative z-10 text-white">Séance d'essai gratuite</span>
+                <div class="absolute inset-0 bg-red-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+              </a>
+              <a href="/inscription" 
+                 class="group relative overflow-hidden bg-[#3A3A25] px-8 py-4 text-lg font-bold">
+                <span class="relative z-10 text-white">Inscription</span>
+                <div class="absolute inset-0 bg-[#2b2b1c] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Colonne droite avec image/logo -->
+          <div class="hidden md:block">
+            <img src="/images/kma-logo-small.png" alt="Krav Maga Logo" 
+                 class="w-full max-w-md mx-auto transform hover:scale-105 transition-all duration-500">
+          </div>
         </div>
       </div>
     </div>
@@ -61,7 +79,7 @@
           <img 
         src="/images/image6.jpg" 
         alt="Krav Maga en action" 
-        class="w-full rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-500 animate-slideLeft"
+        class="w-full shadow-2xl transform hover:scale-105 transition-all duration-500 animate-slideLeft"
           >
         </div>
       </section>
@@ -72,7 +90,7 @@
           Les principes du Krav Maga
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
-          <div class="group bg-black/30 p-8 rounded-xl border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp">
+          <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp">
         <h3 class="text-2xl text-[#D20000] font-bold font-jura group-hover:scale-105 transition-transform">
           Simplicité
         </h3>
@@ -80,7 +98,7 @@
           Basé sur les réflexes naturels du corps humain, le Krav Maga est facile et rapide à apprendre.
         </p>
           </div>
-          <div class="group bg-black/30 p-8 rounded-xl border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100">
+          <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100">
         <h3 class="text-2xl text-[#D20000] font-bold font-jura group-hover:scale-105 transition-transform">
           Rapidité
         </h3>
@@ -88,7 +106,7 @@
           Défense et contre-attaque simultanées pour une efficacité maximale.
         </p>
           </div>
-          <div class="group bg-black/30 p-8 rounded-xl border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-200">
+          <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-200">
         <h3 class="text-2xl text-[#D20000] font-bold font-jura group-hover:scale-105 transition-transform">
           Efficacité
         </h3>
