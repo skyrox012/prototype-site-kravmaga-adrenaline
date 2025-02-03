@@ -6,8 +6,8 @@
         <h1 class="text-4xl md:text-6xl font-bold text-[#D20000] font-jura">Krav Maga à Bruxelles et région de Wavre</h1>
         <p class="text-lg md:text-xl text-gray-300 mt-4">Apprenez l'art de l'autodéfense avec nos instructeurs qualifiés.</p>
         <div class="mt-6 flex space-x-4">
-          <a href="/inscription" class="bg-[#D20000] text-white px-6 py-3 rounded-xl text-lg font-bold hover:bg-red-700 transition">Séance d'essai gratuite</a>
-          <a href="/inscription" class="bg-[#49440F] text-white px-6 py-3 rounded-xl text-lg font-bold hover:bg-green-800 transition">Inscription</a>
+          <a href="/inscription" class="bg-[#D20000] text-white px-12 py-3 rounded-xl text-lg font-bold hover:bg-red-700 transition">Séance d'essai gratuite</a>
+          <a href="/inscription" class="bg-[#49440F] text-white px-12 py-3 rounded-xl text-lg font-bold hover:bg-green-800 transition">Inscription</a>
         </div>
       </div>
     </div>

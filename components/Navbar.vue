@@ -29,7 +29,7 @@
           ]"
           class="absolute lg:relative top-16 lg:top-0 left-0 w-full lg:w-auto bg-black lg:bg-transparent text-center lg:text-left"
         >
-          <li class="py-2 lg:py-0">
+          <li class="py-2 lg:py-0 px-5">
             <NuxtLink to="/" class="block hover:text-red-600 transition-colors"
               >Accueil</NuxtLink
             >
