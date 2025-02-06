@@ -1,10 +1,15 @@
 <template>
   <section class="bg-black text-white min-h-screen py-12">
-    <!-- Titre de la page -->
-    <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
-        Nos Formules et Tarifs
+    <!-- Hero header -->
+    <div class=" mx-auto px-4 text-center relative py-16">
+      <div class="absolute inset-0 bg-red-700/10 skew-y-3 transform -rotate-1"></div>
+      <h1 class="text-5xl md:text-7xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6 relative">
+      Tarifs et Horaires
       </h1>
+      <div class="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
+      <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
+        Nos Formules et Tarifs
+      </h2>
       <p class="text-lg md:text-xl font-mulish text-gray-300">
         Découvrez nos offres adaptées à tous les pratiquants. Simple, clair, et pensé pour votre progression.
       </p>
@@ -13,11 +18,11 @@
     <!-- Section des tarifs -->
     <div class="container mx-auto px-4 mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Carte : Séance d'essai -->
-      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100">
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Séance d'essai</h3>
         <p class="font-mulish text-gray-300 mb-4">
           Profitez d'une séance d'essai gratuite pour découvrir notre club et nos cours. Réservez dès maintenant via le bouton
-          <span class="text-red-600 font-bold">"S'inscrire"</span> en haut de la page.
+          <span class="text-red-600 font-bold"><a href="/inscription">"Inscription"</a></span> en haut de la page.
         </p>
         <div class="mt-6">
           <span class="text-xl font-bold text-white uppercase">Gratuit</span>
@@ -25,7 +30,7 @@
       </div>
 
       <!-- Carte : Abonnement 1 mois -->
-      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100">
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Abonnement 1 Mois</h3>
         <p class="font-mulish text-gray-300 mb-4">
           Engagez-vous pour un mois et profitez de 8 heures de cours par mois, au tarif attractif de :
@@ -37,7 +42,7 @@
       </div>
 
       <!-- Carte : Réductions -->
-      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100">
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Réductions</h3>
         <p class="font-mulish text-gray-300 mb-4">
           Bénéficiez de réductions allant de <span class="text-red-600 font-bold">5%</span> à <span class="text-red-600 font-bold">30%</span> pour tout abonnement
@@ -46,7 +51,7 @@
       </div>
 
       <!-- Carte : Assurance -->
-      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100">
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Assurance</h3>
         <p class="font-mulish text-gray-300 mb-4">
           Une assurance annuelle est obligatoire pour tous les pratiquants. Cette assurance couvre les risques liés aux cours et aux stages.
@@ -58,7 +63,7 @@
       </div>
 
       <!-- Carte : T-shirts -->
-      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100">
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">T-shirts du Club</h3>
         <p class="font-mulish text-gray-300 mb-4">
           Commandez les t-shirts officiels du club directement depuis votre espace personnel. 
@@ -67,7 +72,7 @@
       </div>
 
       <!-- Carte : Stages -->
-      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100">
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Stages</h3>
         <p class="font-mulish text-gray-300 mb-4">
           Des stages exclusifs sont organisés tout au long de l'année pour approfondir vos compétences et apprendre de nouvelles techniques.
@@ -77,6 +82,59 @@
         </div>
       </div>
     </div>
+
+    <!-- Titre Horaires -->
+    <div class=" mx-auto px-4 text-center relative py-16 m-10">
+      <div class="absolute inset-0 bg-red-700/10 skew-y- transform -rotate-1"></div>
+      <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6 relative">
+      Horaires et Lieux de Cours
+      </h2>
+     
+    </div>
+
+    <!-- Section des horaires -->
+    <div class="container mx-auto px-4 mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Cours de Bruxelles -->
+      <div class="border-2 border-[#3A3A25] p-6 shadow-lg" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
+        <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Cours de Bruxelles</h3>
+        <p class="font-mulish text-gray-300 mb-4">
+          Les cours sont donnés dans le dojo du centre sportif de Woluwe-Saint-Pierre. Prenez les escaliers pour descendre juste en face de la caisse de la piscine (salle Judo/arts martiaux, niveau -1). Tous les derniers dimanches du mois, sparring. N'oubliez pas d'apporter votre équipement complet !
+        </p>
+
+        <div class="mt-6">
+          <h4 class="text-xl font-jura text-red-600 mb-2 ">Horaires</h4>
+          <p class="font-mulish text-gray-300 mb-4">Dimanches : 17:00 à 19:00 (Ados/adultes uniquement)</p>
+          
+          <h4 class="text-xl font-jura text-red-600 mb-2">Adresse</h4>
+          <p class="font-mulish text-gray-300 mb-4">Sport City : Avenue Salomé 2 - 1150 Woluwe-Saint-Pierre</p>
+
+          <h4 class="text-xl font-jura text-red-600 mb-2">Email</h4>
+          <p class="font-mulish text-gray-300 mb-4">info@kravmaga-adrenaline.be</p>
+        </div>
+      </div>
+
+      <!-- Cours de Grez-Doiceau -->
+      <div class="border-2 border-[#3A3A25] p-6 shadow-lg" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
+        <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Cours de Grez-Doiceau</h3>
+        <p class="font-mulish text-gray-300 mb-4">
+          Les cours sont donnés dans la salle de gymnastique de l'école communale de Grez-Doiceau. Un parking est accessible rue du Pont au Lin. Tous les derniers vendredis du mois, sparring pour le cours ados/adultes. N'oubliez pas d'apporter votre équipement complet !
+        </p>
+
+        <div class="mt-6">
+          <h4 class="text-xl font-jura text-red-600 mb-2">Horaires</h4>
+          <p class="font-mulish text-gray-300 mb-4">Cours enfants : Vendredis de 18:00 à 20:00</p>
+          <p class="font-mulish text-gray-300 mb-4">Cours ados/adultes : Vendredis de 20:00 à 22:00</p>
+
+          <h4 class="text-xl font-jura text-red-600 mb-2">Adresse</h4>
+          <p class="font-mulish text-gray-300 mb-4">Ecole communale de Grez-Doiceau : Rue du Pont au Lin 22 - 1390 Grez-Doiceau</p>
+
+          <h4 class="text-xl font-jura text-red-600 mb-2">Email</h4>
+          <p class="font-mulish text-gray-300 mb-4">info@kravmaga-adrenaline.be</p>
+        </div>
+      </div>
+    </div>
+
   </section>
 </template>
 

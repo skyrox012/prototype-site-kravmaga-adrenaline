@@ -38,14 +38,7 @@
             <NuxtLink
               to="/tarifs"
               class="block hover:text-red-600 transition-colors"
-              >Tarifs</NuxtLink
-            >
-          </li>
-          <li class="py-2 lg:py-0 px-5">
-            <NuxtLink
-              to="/horaires"
-              class="block hover:text-red-600 transition-colors"
-              >Horaires</NuxtLink
+              >Tarifs/Horaires</NuxtLink
             >
           </li>
           <li class="py-2 lg:py-0 px-5">
@@ -53,6 +46,13 @@
               to="/infos"
               class="block hover:text-red-600 transition-colors"
               >Infos</NuxtLink
+            >
+          </li>
+          <li class="py-2 lg:py-0 px-5">
+            <NuxtLink
+              to="/#contact"
+              class="block hover:text-red-600 transition-colors"
+              >Contact</NuxtLink
             >
           </li>
           <li class="py-2 lg:py-0 px-5">

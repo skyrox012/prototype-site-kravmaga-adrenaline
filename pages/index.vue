@@ -157,7 +157,7 @@
         </div>
       </section>
       <!-- Section Contact -->
-      <section class="p-10 py-10 mb-12 bg-fixed" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
+      <section id="contact" class="p-10 py-10 mb-12 bg-fixed" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
         <h2 class="text-3xl md:text-4xl text-[#D20000] font-jura font-bold mb-6">
           Nous contacter
         </h2>
@@ -180,6 +180,54 @@
             Envoyer le message
           </button>
         </form>
+        <div class="mt-12">
+          <h3 class="text-2xl text-[#D20000] font-jura font-bold mb-6">Nos localisations</h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Bruxelles Location -->
+            <div class="bg-black/30 p-6 rounded-lg">
+              <h4 class="text-xl text-white font-bold mb-4">Bruxelles - SportCity</h4>
+              <p class="text-gray-300 mb-4">
+                Centre sportif de Woluwe-Saint-Pierre<br>
+                2 avenue Salomé<br>
+                1150 Woluwe-Saint-Pierre<br>
+                Belgium
+              </p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.5144440155165!2d4.432533776567571!3d50.82636297152761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3db3e7b2f1945%3A0x9b6d3a4e8de38492!2sSportcity!5e0!3m2!1sen!2sbe!4v1690226145316!5m2!1sen!2sbe"
+                class="w-full h-64 rounded-lg"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+
+            <!-- Grez-Doiceau Location -->
+            <div class="bg-black/30 p-6 rounded-lg">
+              <h4 class="text-xl text-white font-bold mb-4">Grez-Doiceau</h4>
+              <p class="text-gray-300 mb-4">
+                Ecole communale de Grez-Doiceau<br>
+                22 rue du Pont au Lin<br>
+                1390 Grez-Doiceau<br>
+                Belgium
+              </p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.907795334091!2d4.692799776567011!3d50.74241207151846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c17c8b96b3c765%3A0x8f3a295b2e15d75d!2sRue%20du%20Pont%20au%20Lin%2022%2C%201390%20Grez-Doiceau!5e0!3m2!1sen!2sbe!4v1690226248026!5m2!1sen!2sbe"
+                class="w-full h-64 rounded-lg"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+
+          <div class="mt-6 text-center">
+            <p class="text-gray-300">
+              Email: <a href="mailto:info@kravmaga-adrenaline.be" class="text-[#D20000] hover:underline">info@kravmaga-adrenaline.be</a>
+            </p>
+          </div>
+        </div>
       </section>
     </div>
   </section>

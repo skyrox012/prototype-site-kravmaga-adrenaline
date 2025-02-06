@@ -1,4 +1,5 @@
 <template>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <footer class="bg-black text-white py-8">
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
       <!-- Logo et Description -->
@@ -49,13 +50,10 @@
           </li>
           <li class="flex space-x-4 mt-4">
             <a href="#" class="text-white hover:text-red-600 transition-colors">
-              <i class="fab fa-facebook-f"></i> <!-- Icône Facebook -->
+              <i class="fa fa-facebook-f"></i> <!-- Icône Facebook -->
             </a>
             <a href="#" class="text-white hover:text-red-600 transition-colors">
-              <i class="fab fa-instagram"></i> <!-- Icône Instagram -->
-            </a>
-            <a href="#" class="text-white hover:text-red-600 transition-colors">
-              <i class="fab fa-twitter"></i> <!-- Icône Twitter -->
+              <i class="fa fa-instagram"></i> <!-- Icône Instagram -->
             </a>
           </li>
         </ul>
