@@ -18,13 +18,13 @@
             <NuxtLink to="/" class="hover:text-red-600 transition-colors">Accueil</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/tarifs" class="hover:text-red-600 transition-colors">Tarifs</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/horaires" class="hover:text-red-600 transition-colors">Horaires</NuxtLink>
+            <NuxtLink to="/tarifs" class="hover:text-red-600 transition-colors">Tarifs/Horaires</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/infos" class="hover:text-red-600 transition-colors">Infos</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/#contact" class="hover:text-red-600 transition-colors">Contact</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/inscription" class="hover:text-red-600 transition-colors">Inscription</NuxtLink>
@@ -49,11 +49,11 @@
             <span class="font-bold">Email:</span> <a href="mailto:contact@kravmaga-adrenaline.fr" class="hover:text-red-600">info@kravmaga-adrenaline.be</a>
           </li>
           <li class="flex space-x-4 mt-4">
-            <a href="#" class="text-white hover:text-red-600 transition-colors">
-              <i class="fa fa-facebook-f"></i> <!-- Icône Facebook -->
+            <a href="https://www.facebook.com/krav.maga.adrenaline.bruxelles" class="text-white hover:text-red-600 transition-colors px-5">
+              <i class="fa fa-facebook-f"></i> 
             </a>
-            <a href="#" class="text-white hover:text-red-600 transition-colors">
-              <i class="fa fa-instagram"></i> <!-- Icône Instagram -->
+            <a href="#" class="text-white hover:text-red-600 transition-colors px-5">
+              <i class="fa fa-instagram"></i> 
             </a>
           </li>
         </ul>

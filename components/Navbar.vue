@@ -3,11 +3,13 @@
     <div class="container mx-auto flex justify-between items-center px-4 py-3">
       <!-- Logo -->
       <div class="flex items-center">
-        <img
-          src="/images/logo-km-adrenaline.png"
-          alt="Logo"
-          class="h-10 w-auto mr-3"
-        />
+        <NuxtLink to="/">
+          <img
+        src="/images/logo-km-adrenaline.png"
+        alt="Logo"
+        class="h-10 w-auto mr-3"
+          />
+        </NuxtLink>
       </div>
 
       <!-- Hamburger Icon -->

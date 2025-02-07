@@ -1,12 +1,17 @@
 <template>
   <section class="bg-black text-white min-h-screen py-12">
-    <!-- Titre de la page -->
-    <div class="container mx-auto px-4 text-center mb-12">
-      <h1 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
-        Informations sur le Krav Maga
+    <!-- Hero header -->
+    <div class="mx-auto px-4 text-center relative py-16">
+      <div class="absolute inset-0 bg-red-700/10 skew-y-3 transform -rotate-1"></div>
+      <h1 class="text-5xl md:text-7xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6 relative">
+      Informations sur le Krav Maga
       </h1>
+      <div class="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
+      <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
+      Découvrez Notre Programme
+      </h2>
       <p class="text-lg md:text-xl font-mulish text-gray-300">
-        Découvrez notre approche du Krav Maga, les principes de nos cours et les compétences que vous développerez au fil de votre apprentissage.
+      Découvrez notre approche du Krav Maga, les principes de nos cours et les compétences que vous développerez au fil de votre apprentissage.
       </p>
     </div>
 
@@ -14,138 +19,198 @@
     <div class="container mx-auto px-4 mb-12">
       <h2 class="text-3xl font-jura text-red-600 mb-6">Le Cours</h2>
       <p class="font-mulish text-gray-300 mb-6">
-        Le déroulement d'un cours de Krav Maga suit un schéma précis qui combine techniques, exercices et mises en situation pour garantir une progression optimale.
+      Le déroulement d'un cours de Krav Maga suit un schéma précis qui combine techniques, exercices et mises en situation pour garantir une progression optimale.
       </p>
 
       <!-- Grille des descriptions -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Renforcement musculaire -->
-        <div class="border-2 border-red-600 p-6 hover:scale-105 transition">
-          <h3 class="text-2xl font-jura text-red-600 mb-4">Renforcement musculaire</h3>
-          <p class="font-mulish text-gray-300 mb-4">
-            Travaillez l'efficacité musculaire pour développer force, endurance et explosivité. Une préparation de 15 minutes, adaptée à votre rythme, pour maximiser vos performances.
-          </p>
-          <img src="https://via.placeholder.com/400x300" alt="Renforcement musculaire" class="w-full h-48 object-cover mt-4" />
-        </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Renforcement musculaire -->
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
+        <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Renforcement musculaire</h3>
+        <p class="font-mulish text-gray-300 mb-4">
+        Travaillez l'efficacité musculaire pour développer force, endurance et explosivité. Une préparation de 15 minutes, adaptée à votre rythme, pour maximiser vos performances.
+        </p>
+      </div>
 
-        <!-- Les drills -->
-        <div class="border-2 border-red-600 p-6 hover:scale-105 transition">
-          <h3 class="text-2xl font-jura text-red-600 mb-4">Les drills</h3>
-          <p class="font-mulish text-gray-300 mb-4">
-            Développez vos réflexes et votre explosivité grâce à des exercices ciblés. Chaque drill améliore une compétence spécifique, comme le déplacement, la frappe ou la défense.
-          </p>
-          <img src="https://via.placeholder.com/400x300" alt="Les drills" class="w-full h-48 object-cover mt-4" />
-        </div>
+      <!-- Les drills -->
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
+        <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Les drills</h3>
+        <p class="font-mulish text-gray-300 mb-4">
+        Développez vos réflexes et votre explosivité grâce à des exercices ciblés. Chaque drill améliore une compétence spécifique, comme le déplacement, la frappe ou la défense.
+        </p>
+      </div>
 
-        <!-- Combatives -->
-        <div class="border-2 border-red-600 p-6 hover:scale-105 transition">
-          <h3 class="text-2xl font-jura text-red-600 mb-4">Les combatives</h3>
-          <p class="font-mulish text-gray-300 mb-4">
-            Apprenez les techniques de frappes pour neutraliser un adversaire ou vous dégager d'une saisie. Ces techniques sont la base même du Krav Maga.
-          </p>
-          <img src="https://via.placeholder.com/400x300" alt="Les combatives" class="w-full h-48 object-cover mt-4" />
-        </div>
+      <!-- Combatives -->
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
+        <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Les combatives</h3>
+        <p class="font-mulish text-gray-300 mb-4">
+        Apprenez les techniques de frappes pour neutraliser un adversaire ou vous dégager d'une saisie. Ces techniques sont la base même du Krav Maga.
+        </p>
+      </div>
 
-        <!-- Self defense -->
-        <div class="border-2 border-red-600 p-6 hover:scale-105 transition">
-          <h3 class="text-2xl font-jura text-red-600 mb-4">Self Defense</h3>
-          <p class="font-mulish text-gray-300 mb-4">
-            Maîtrisez des techniques pour contrer les saisies, les étranglements, ou les menaces armées. Un apprentissage progressif pour renforcer vos réflexes naturels.
-          </p>
-          <img src="https://via.placeholder.com/400x300" alt="Self defense" class="w-full h-48 object-cover mt-4" />
-        </div>
+      <!-- Self defense -->
+      <div class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500" style="background-image: url('/images/Fond-motif1.jpg'); background-size: cover; background-position: center;">
+        <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Self Defense</h3>
+        <p class="font-mulish text-gray-300 mb-4">
+        Maîtrisez des techniques pour contrer les saisies, les étranglements, ou les menaces armées. Un apprentissage progressif pour renforcer vos réflexes naturels.
+        </p>
+      </div>
       </div>
     </div>
 
     <!-- Instructeurs -->
+    <!-- Titre Instructeurs -->
+    <div class="mx-auto px-4 text-center relative py-16 m-10">
+      <div class="absolute inset-0 bg-red-700/10 skew-y transform -rotate-2"></div>
+      <h2 class="text-4xl md:text-5xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6 relative">
+      Nos Instructeurs
+      </h2>
+    </div>
     <div class="container mx-auto px-4 mb-12">
-      <h2 class="text-3xl font-jura text-red-600 mb-6">Nos Instructeurs</h2>
-      <p class="font-mulish text-gray-300 mb-6">
-        Nos instructeurs sont formés par les plus grandes écoles internationales de Krav Maga. Leur expérience et leur expertise garantissent un enseignement de haute qualité, axé sur la sécurité, la progression et la technique.
+      <p class="font-mulish text-gray-300 mb-12 text-center max-w-3xl mx-auto text-lg">
+      Nos instructeurs sont formés par les plus grandes écoles internationales de Krav Maga. Leur expérience et leur expertise garantissent un enseignement de haute qualité, axé sur la sécurité, la progression et la technique.
       </p>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Laurent -->
-        <div class="text-center transition-all transform duration-300 shadow-xl p-5">
-          <img src="~/public/images/image16.jpg" alt="Laurent" class="rounded-full w-32 h-32 mx-auto mb-4 shadow-lg">
-          <h3 class="font-jura text-lg text-red-600">Laurent</h3>
-          <p class="font-mulish text-gray-300">Instructeur et Président du Club</p>
-          <button @click="toggleDetails('laurent')" class="mt-2 text-red-600 hover:text-white underline">Voir plus</button>
-          <div v-if="activeInstructor === 'laurent'" class="mt-4 text-gray-300 text-left p-4 transition-all duration-300 ease-in-out">
-            <p><strong>Formé par :</strong> Greg (Krav Maga Worldwide BXL), Thierry Viatour (Krav Maga Worldwide Europe), Jon Pascal (Krav Maga WorldWide Los Angeles), etc.</p>
-            <p><strong>Diplômes et qualifications :</strong> Instructeur certifié Krav Maga Worldwide Level 5, Instructeur certifié Krav Maga Worldwide Expert I et II, etc.</p>
-            <p><strong>Occupations :</strong> Cours collectifs SPORTCITY & Grez-Doiceau, Personal trainings sur Rendez-Vous, Stages en entreprises, etc.</p>
-          </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <!-- Laurent -->
+      <div class="relative group bg-gradient-to-b from-black/40 to-black/60 transition-all duration-500 transform hover:-translate-y-2 hover:shadow-2xl">
+        <div class="p-8 text-center border-2 border-red-800/20 backdrop-blur-sm">
+        <img src="~/public/images/image16.jpg" alt="Laurent" class="rounded-full w-40 h-40 mx-auto mb-6 shadow-xl group-hover:scale-105 transition-transform duration-500 border-4 border-red-600/30">
+        <h3 class="font-jura text-2xl text-red-600 mb-2">Laurent</h3>
+        <p class="font-mulish text-gray-300 mb-4">Instructeur et Président du Club</p>
+        <button @click="toggleDetails('laurent')" class="px-6 py-2 bg-red-600/10 hover:bg-red-600 text-red-600 hover:text-white rounded-full transition-all duration-300">
+          Voir plus
+        </button>
+        <div v-if="activeInstructor === 'laurent'" class="mt-6 text-gray-300 text-left space-y-4 animate-fadeIn">
+          <p><span class="text-red-600 font-semibold">Formé par :</span> Greg (Krav Maga Worldwide BXL), Thierry Viatour (Krav Maga Worldwide Europe), Jon Pascal (Krav Maga WorldWide Los Angeles)</p>
+          <p><span class="text-red-600 font-semibold">Diplômes :</span> Instructeur certifié Krav Maga Worldwide Level 5, Expert I et II</p>
+          <p><span class="text-red-600 font-semibold">Occupations :</span> Cours collectifs SPORTCITY & Grez-Doiceau, Personal trainings</p>
         </div>
+        </div>
+      </div>
 
-        <!-- Lea -->
-        <div class="text-center transition-all transform duration-300 shadow-xl p-5">
-          <img src="~/public/images/image16.jpg" alt="Lea" class="rounded-full w-32 h-32 mx-auto mb-4 shadow-lg">
-          <h3 class="font-jura text-lg text-red-600">Lea</h3>
-          <p class="font-mulish text-gray-300">Instructrice certifiée</p>
-          <button @click="toggleDetails('lea')" class="mt-2 text-red-600 hover:text-white underline">Voir plus</button>
-          <div v-if="activeInstructor === 'lea'" class="mt-4 text-gray-300 text-left p-4 transition-all duration-300 ease-in-out">
-            <p><strong>Formée par :</strong> Greg, Jon Pascal, Matt Romond, etc.</p>
-            <p><strong>Diplômes et qualifications :</strong> Instructeur certifié Krav Maga Worldwide Level 1</p>
-            <p><strong>Occupations :</strong> Cours collectifs SPORTCITY & Grez-Doiceau</p>
-          </div>
+      <!-- Lea -->
+      <div class="relative group bg-gradient-to-b from-black/40 to-black/60  transition-all duration-500 transform hover:-translate-y-2 hover:shadow-2xl">
+        <div class="p-8 text-center border-2 border-red-800/20 backdrop-blur-sm">
+        <img src="~/public/images/image16.jpg" alt="Lea" class="rounded-full w-40 h-40 mx-auto mb-6 shadow-xl group-hover:scale-105 transition-transform duration-500 border-4 border-red-600/30">
+        <h3 class="font-jura text-2xl text-red-600 mb-2">Lea</h3>
+        <p class="font-mulish text-gray-300 mb-4">Instructrice certifiée</p>
+        <button @click="toggleDetails('lea')" class="px-6 py-2 bg-red-600/10 hover:bg-red-600 text-red-600 hover:text-white rounded-full transition-all duration-300">
+          Voir plus
+        </button>
+        <div v-if="activeInstructor === 'lea'" class="mt-6 text-gray-300 text-left space-y-4 animate-fadeIn">
+          <p><span class="text-red-600 font-semibold">Formée par :</span> Greg, Jon Pascal, Matt Romond</p>
+          <p><span class="text-red-600 font-semibold">Diplômes :</span> Instructeur certifié Krav Maga Worldwide Level 1</p>
+          <p><span class="text-red-600 font-semibold">Occupations :</span> Cours collectifs SPORTCITY & Grez-Doiceau</p>
         </div>
+        </div>
+      </div>
 
-        <!-- Greg -->
-        <div class="text-center transition-all transform duration-300 shadow-xl p-5">
-          <img src="~/public/images/image16.jpg" alt="Greg" class="rounded-full w-32 h-32 mx-auto mb-4 shadow-lg">
-          <h3 class="font-jura text-lg text-red-600">Greg</h3>
-          <p class="font-mulish text-gray-300">Instructeur et Fondateur du Club</p>
-          <button @click="toggleDetails('greg')" class="mt-2 text-red-600 hover:text-white underline">Voir plus</button>
-          <div v-if="activeInstructor === 'greg'" class="mt-4 text-gray-300 text-left p-4 transition-all duration-300 ease-in-out">
-            <p><strong>Formé par :</strong> Younnes Madani, Grzesiek Adamzyk, Jon Pascal, Thierry Viatour, etc.</p>
-            <p><strong>Diplômes et qualifications :</strong> Instructeur certifié Krav Maga Worldwide Level 5, Instructeur certifié Fit2Fight A, etc.</p>
-            <p><strong>Occupations :</strong> Cours collectifs SPORTCITY & Grez-Doiceau, Personal trainings sur Rendez-Vous, Stages en entreprises, etc.</p>
-          </div>
+      <!-- Greg -->
+      <div class="relative group bg-gradient-to-b from-black/40 to-black/60 transition-all duration-500 transform hover:-translate-y-2 hover:shadow-2xl">
+        <div class="p-8 text-center border-2 border-red-800/20 backdrop-blur-sm">
+        <img src="~/public/images/image16.jpg" alt="Greg" class="rounded-full w-40 h-40 mx-auto mb-6 shadow-xl group-hover:scale-105 transition-transform duration-500 border-4 border-red-600/30">
+        <h3 class="font-jura text-2xl text-red-600 mb-2">Greg</h3>
+        <p class="font-mulish text-gray-300 mb-4">Instructeur et Fondateur du Club</p>
+        <button @click="toggleDetails('greg')" class="px-6 py-2 bg-red-600/10 hover:bg-red-600 text-red-600 hover:text-white rounded-full transition-all duration-300">
+          Voir plus
+        </button>
+        <div v-if="activeInstructor === 'greg'" class="mt-6 text-gray-300 text-left space-y-4 animate-fadeIn">
+          <p><span class="text-red-600 font-semibold">Formé par :</span> Younnes Madani, Grzesiek Adamzyk, Jon Pascal, Thierry Viatour</p>
+          <p><span class="text-red-600 font-semibold">Diplômes :</span> Instructeur certifié Krav Maga Worldwide Level 5, Fit2Fight A</p>
+          <p><span class="text-red-600 font-semibold">Occupations :</span> Cours collectifs SPORTCITY & Grez-Doiceau, Personal trainings</p>
         </div>
+        </div>
+      </div>
       </div>
     </div>
 
     <!-- FAQ -->
-    <div class="container mx-auto px-4 mb-12">
-      <h2 class="text-3xl font-jura text-red-600 mb-6">F.A.Q.</h2>
+    <div class="mx-auto mb-12">
+      <!-- Titre FAQ -->
+      <div class="mx-auto px-4 text-center relative py-16 m-10">
+        <div class="absolute inset-0 bg-red-700/10 skew-y-3 transform -rotate-2"></div>
+        <h2 class="text-4xl md:text-5xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6 relative">
+          F.A.Q.
+        </h2>
+      </div>
+      <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
       <div>
         <div
-          v-for="(faq, index) in faqs"
-          :key="index"
-          class="border-b border-gray-600 py-4"
+        v-for="(faq, index) in faqs.slice(0, Math.ceil(faqs.length/2))"
+        :key="index"
+        class="border-b border-gray-600 py-4"
         >
-          <button
-            class="w-full flex justify-between items-center text-left text-lg font-mulish text-gray-300 hover:text-red-600 focus:outline-none"
-            @click="toggleFaq(index)"
+        <button
+          class="w-full flex justify-between items-center text-left text-lg font-mulish text-gray-300 hover:text-red-600 focus:outline-none"
+          @click="toggleFaq(index)"
+        >
+          <span>{{ faq.question }}</span>
+          <svg
+          :class="{ 'transform rotate-180': faq.open }"
+          class="w-5 h-5 transition-transform duration-300"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
           >
-            <span>{{ faq.question }}</span>
-            <svg
-              :class="{ 'transform rotate-180': faq.open }"
-              class="w-5 h-5 transition-transform duration-300"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </button>
-          <div
-            v-show="faq.open"
-            class="overflow-hidden transition-all duration-300 ease-in-out"
-            :style="{ maxHeight: faq.open ? '500px' : '0px' }"
-          >
-            <p class="mt-3 text-gray-400 font-mulish">
-              {{ faq.answer }}
-            </p>
-          </div>
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+          </svg>
+        </button>
+        <div
+          v-show="faq.open"
+          class="overflow-hidden transition-all duration-300 ease-in-out"
+          :style="{ maxHeight: faq.open ? '500px' : '0px' }"
+        >
+          <p class="mt-3 text-gray-400 font-mulish">
+          {{ faq.answer }}
+          </p>
         </div>
+        </div>
+      </div>
+      <div>
+        <div
+        v-for="(faq, index) in faqs.slice(Math.ceil(faqs.length/2))"
+        :key="index + Math.ceil(faqs.length/2)"
+        class="border-b border-gray-600 py-4"
+        >
+        <button
+          class="w-full flex justify-between items-center text-left text-lg font-mulish text-gray-300 hover:text-red-600 focus:outline-none"
+          @click="toggleFaq(index + Math.ceil(faqs.length/2))"
+        >
+          <span>{{ faq.question }}</span>
+          <svg
+          :class="{ 'transform rotate-180': faq.open }"
+          class="w-5 h-5 transition-transform duration-300"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+          </svg>
+        </button>
+        <div
+          v-show="faq.open"
+          class="overflow-hidden transition-all duration-300 ease-in-out"
+          :style="{ maxHeight: faq.open ? '500px' : '0px' }"
+        >
+          <p class="mt-3 text-gray-400 font-mulish">
+          {{ faq.answer }}
+          </p>
+        </div>
+        </div>
+      </div>
       </div>
     </div>
   </section>

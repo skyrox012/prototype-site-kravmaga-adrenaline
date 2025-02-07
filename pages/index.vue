@@ -67,8 +67,8 @@
           Le Krav Maga est un système d'autodéfense créé à l'origine pour le Mossad israélien. 
           Cette discipline unique combine des techniques efficaces avec une philosophie de survie moderne.
         </p>
-        <div class="flex space-x-4">
-          <span class="px-4 py-2 bg-[#D20000]/20 text-[#D20000] rounded-full text-sm font-bold">
+        <div class="flex space-x-8">
+          <span class="px-4 py-2  bg-[#D20000]/20 text-[#D20000] rounded-full text-sm font-bold">
             Auto-défense
           </span>
           <span class="px-4 py-2 bg-[#3A3A25]/20 text-gray-300 rounded-full text-sm font-bold">
@@ -77,7 +77,7 @@
         </div>
           </div>
           <img 
-        src="/images/image6.jpg" 
+        src="/images/image21.jpg" 
         alt="Krav Maga en action" 
         class="w-full shadow-2xl transform hover:scale-105 transition-all duration-500 animate-slideLeft"
           >
@@ -86,6 +86,7 @@
 
       <!-- Les principes du Krav Maga -->
       <section class="mb-12 py-10 px-10">
+        
         <h2 class="text-3xl md:text-5xl text-[#D20000] font-jura font-bold mb-8 animate-fadeIn">
           Les principes du Krav Maga
         </h2>
@@ -165,18 +166,18 @@
           <div class="grid md:grid-cols-2 gap-6">
             <div>
               <label class="block text-gray-300 mb-2">Nom</label>
-              <input type="text" class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] rounded-lg p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors">
+              <input type="text" class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors" placeholder="Votre nom">
             </div>
             <div>
               <label class="block text-gray-300 mb-2">Email</label>
-              <input type="email" class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] rounded-lg p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors">
+              <input type="email" class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors" placeholder="votre@email.com">
             </div>
           </div>
           <div>
             <label class="block text-gray-300 mb-2">Message</label>
-            <textarea rows="4" class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] rounded-lg p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors"></textarea>
+            <textarea rows="4" class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors" placeholder="Votre message"></textarea>
           </div>
-          <button type="submit" class="bg-[#D20000] text-white px-8 py-4 rounded-xl text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/50 hover:shadow-lg">
+          <button type="submit" class="bg-[#D20000] text-white px-8 py-4 text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/50 hover:shadow-lg" >
             Envoyer le message
           </button>
         </form>
@@ -193,9 +194,9 @@
                 Belgium
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.5144440155165!2d4.432533776567571!3d50.82636297152761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3db3e7b2f1945%3A0x9b6d3a4e8de38492!2sSportcity!5e0!3m2!1sen!2sbe!4v1690226145316!5m2!1sen!2sbe"
-                class="w-full h-64 rounded-lg"
-                style="border:0;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.039827366306!2d4.456488300000001!3d50.8304262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3db9d7a5e8761%3A0xf0cf230484aabe26!2sSportcity!5e0!3m2!1sen!2sbe!4v1738937805306!5m2!1sen!2sbe"
+                class="w-full h-64"
+                style="border:0; filter: grayscale(100%) contrast(90%) brightness(90%);"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
@@ -211,14 +212,14 @@
                 1390 Grez-Doiceau<br>
                 Belgium
               </p>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.907795334091!2d4.692799776567011!3d50.74241207151846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c17c8b96b3c765%3A0x8f3a295b2e15d75d!2sRue%20du%20Pont%20au%20Lin%2022%2C%201390%20Grez-Doiceau!5e0!3m2!1sen!2sbe!4v1690226248026!5m2!1sen!2sbe"
-                class="w-full h-64 rounded-lg"
-                style="border:0;"
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.9669118155!2d4.694621576239233!3d50.73910256653875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c17b599027bb81%3A0x8ceebab12d128cc3!2sCommunity%20School%20of%20Grez-Doiceau!5e0!3m2!1sen!2sbe!4v1738937953042!5m2!1sen!2sbe"
+                class="w-full h-64"
+                style="border:0; filter: grayscale(100%) contrast(90%) brightness(90%);"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+                </iframe>
             </div>
           </div>
 
