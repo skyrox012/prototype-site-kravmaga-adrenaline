@@ -100,9 +100,9 @@
               Mossad israélien. Cette discipline unique combine des techniques
               efficaces avec une philosophie de survie moderne.
             </p>
-            <div class="flex space-x-8">
+            <div class="flex space-x-4">
               <span
-                class="px-4 py-2 bg-[#D20000]/20 text-[#D20000] rounded-full text-sm font-bold"
+                class="px-4 py-2 mr-5 bg-[#D20000]/20 text-[#D20000] rounded-full text-sm font-bold"
               >
                 Auto-défense
               </span>
