@@ -34,81 +34,89 @@
         <!-- Renforcement musculaire -->
         <div
           v-scroll-animation
-          class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500"
-          style="
-            background-image: url('/images/Fond-motif1.jpg');
-            background-size: cover;
-            background-position: center;
-          "
+          class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 relative"
         >
-          <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
-            Renforcement musculaire
-          </h3>
-          <p class="font-mulish text-gray-300 mb-4">
-            Travaillez l'efficacité musculaire pour développer force, endurance
-            et explosivité. Une préparation de 15 minutes, adaptée à votre
-            rythme, pour maximiser vos performances.
-          </p>
+          <img
+            src="~/public/images/image11.jpg"
+            alt="Renforcement musculaire"
+            class="absolute inset-0 w-full h-full object-cover object-center opacity-20"
+          />
+          <div class="relative z-10">
+            <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
+              Renforcement musculaire
+            </h3>
+            <p class="font-mulish text-gray-300 mb-4">
+              Travaillez l'efficacité musculaire pour développer force,
+              endurance et explosivité. Une préparation de 15 minutes, adaptée à
+              votre rythme, pour maximiser vos performances.
+            </p>
+          </div>
         </div>
 
         <!-- Les drills -->
         <div
           v-scroll-animation
-          class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500"
-          style="
-            background-image: url('/images/Fond-motif1.jpg');
-            background-size: cover;
-            background-position: center;
-          "
+          class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 relative"
         >
-          <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
-            Les drills
-          </h3>
-          <p class="font-mulish text-gray-300 mb-4">
-            Développez vos réflexes et votre explosivité grâce à des exercices
-            ciblés. Chaque drill améliore une compétence spécifique, comme le
-            déplacement, la frappe ou la défense.
-          </p>
+          <img
+            src="~/public/images/image17.jpg"
+            alt="Les drills"
+            class="absolute inset-0 w-full h-full object-cover object-center opacity-20"
+          />
+          <div class="relative z-10">
+            <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
+              Les drills
+            </h3>
+            <p class="font-mulish text-gray-300 mb-4">
+              Développez vos réflexes et votre explosivité grâce à des exercices
+              ciblés. Chaque drill améliore une compétence spécifique, comme le
+              déplacement, la frappe ou la défense.
+            </p>
+          </div>
         </div>
 
         <!-- Combatives -->
         <div
           v-scroll-animation
-          class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500"
-          style="
-            background-image: url('/images/Fond-motif1.jpg');
-            background-size: cover;
-            background-position: center;
-          "
+          class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 relative"
         >
-          <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
-            Les combatives
-          </h3>
-          <p class="font-mulish text-gray-300 mb-4">
-            Apprenez les techniques de frappes pour neutraliser un adversaire ou
-            vous dégager d'une saisie. Ces techniques sont la base même du Krav
-            Maga.
-          </p>
+          <img
+            src="~/public/images/image16.jpg"
+            alt="Les combatives"
+            class="absolute inset-0 w-full h-full object-cover object-center opacity-20"
+          />
+          <div class="relative z-10">
+            <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
+              Les combatives
+            </h3>
+            <p class="font-mulish text-gray-300 mb-4">
+              Apprenez les techniques de frappes pour neutraliser un adversaire
+              ou vous dégager d'une saisie. Ces techniques sont la base même du
+              Krav Maga.
+            </p>
+          </div>
         </div>
 
         <!-- Self defense -->
         <div
           v-scroll-animation
-          class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500"
-          style="
-            background-image: url('/images/Fond-motif1.jpg');
-            background-size: cover;
-            background-position: center;
-          "
+          class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 relative"
         >
-          <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
-            Self Defense
-          </h3>
-          <p class="font-mulish text-gray-300 mb-4">
-            Maîtrisez des techniques pour contrer les saisies, les
-            étranglements, ou les menaces armées. Un apprentissage progressif
-            pour renforcer vos réflexes naturels.
-          </p>
+          <img
+            src="~/public/images/image13.jpg"
+            alt="Self defense"
+            class="absolute inset-0 w-full h-full object-cover object-center opacity-20"
+          />
+          <div class="relative z-10">
+            <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
+              Self Defense
+            </h3>
+            <p class="font-mulish text-gray-300 mb-4">
+              Maîtrisez des techniques pour contrer les saisies, les
+              étranglements, ou les menaces armées. Un apprentissage progressif
+              pour renforcer vos réflexes naturels.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -148,7 +156,7 @@
             class="p-8 text-center border-2 border-red-800/20 backdrop-blur-sm"
           >
             <img
-              src="~/public/images/image16.jpg"
+              src="~/public/images/imageprofil1.jpg"
               alt="Laurent"
               class="rounded-full w-40 h-40 mx-auto mb-6 shadow-xl group-hover:scale-105 transition-transform duration-500 border-4 border-red-600/30"
             />
@@ -164,18 +172,18 @@
             </button>
             <div
               v-if="activeInstructor === 'laurent'"
-              class="mt-6 text-gray-300 text-left space-y-4 animate-fadeIn"
+              class="mt-6 text-gray-300 text-left py-4"
             >
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Formé par :</span> Greg
                 (Krav Maga Worldwide BXL), Thierry Viatour (Krav Maga Worldwide
                 Europe), Jon Pascal (Krav Maga WorldWide Los Angeles)
               </p>
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Diplômes :</span>
                 Instructeur certifié Krav Maga Worldwide Level 5, Expert I et II
               </p>
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Occupations :</span>
                 Cours collectifs SPORTCITY & Grez-Doiceau, Personal trainings
               </p>
@@ -192,7 +200,7 @@
             class="p-8 text-center border-2 border-red-800/20 backdrop-blur-sm"
           >
             <img
-              src="~/public/images/image16.jpg"
+              src="~/public/images/imageprofil2.jpg"
               alt="Lea"
               class="rounded-full w-40 h-40 mx-auto mb-6 shadow-xl group-hover:scale-105 transition-transform duration-500 border-4 border-red-600/30"
             />
@@ -206,17 +214,17 @@
             </button>
             <div
               v-if="activeInstructor === 'lea'"
-              class="mt-6 text-gray-300 text-left space-y-4 animate-fadeIn"
+              class="mt-6 text-gray-300 text-left py-4"
             >
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Formée par :</span>
                 Greg, Jon Pascal, Matt Romond
               </p>
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Diplômes :</span>
                 Instructeur certifié Krav Maga Worldwide Level 1
               </p>
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Occupations :</span>
                 Cours collectifs SPORTCITY & Grez-Doiceau
               </p>
@@ -233,7 +241,7 @@
             class="p-8 text-center border-2 border-red-800/20 backdrop-blur-sm"
           >
             <img
-              src="~/public/images/image16.jpg"
+              src="~/public/images/imageprofil3.jpg"
               alt="Greg"
               class="rounded-full w-40 h-40 mx-auto mb-6 shadow-xl group-hover:scale-105 transition-transform duration-500 border-4 border-red-600/30"
             />
@@ -249,17 +257,17 @@
             </button>
             <div
               v-if="activeInstructor === 'greg'"
-              class="mt-6 text-gray-300 text-left space-y-4 animate-fadeIn"
+              class="mt-6 text-gray-300 text-left py-4"
             >
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Formé par :</span>
                 Younnes Madani, Grzesiek Adamzyk, Jon Pascal, Thierry Viatour
               </p>
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Diplômes :</span>
                 Instructeur certifié Krav Maga Worldwide Level 5, Fit2Fight A
               </p>
-              <p>
+              <p class="py-2">
                 <span class="text-red-600 font-semibold">Occupations :</span>
                 Cours collectifs SPORTCITY & Grez-Doiceau, Personal trainings
               </p>

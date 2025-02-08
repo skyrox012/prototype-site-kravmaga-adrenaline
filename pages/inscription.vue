@@ -29,7 +29,9 @@
         background-position: center;
       "
     >
-      <form v-scroll-animation class="max-w-3xl mx-auto space-y-6">
+      <form v-scroll-animation class="max-w-3xl mx-auto py-6">
+        <!-- Remplacé space-y-6 par py-6 -->
+
         <h2
           v-scroll-animation
           class="text-4xl text-[#D20000] font-jura font-bold mb-8 text-center"
@@ -37,10 +39,11 @@
           Créez votre compte
         </h2>
 
-        <div v-scroll-animation class="space-y-6 mb-8">
+        <div  class="py-6 mb-8">
           <div
-            class="p-4 bg-[#1a1a1a] border-2 border-[#3A3A25] hover:border-[#D20000] transition-colors"
+            class="p-4 bg-[#1a1a1a] border-2 border-[#3A3A25] hover:border-[#D20000] transition-colors mb-6"
           >
+            <!-- Ajout de mb-6 pour maintenir l'espacement vertical -->
             <label class="flex items-center space-x-3 cursor-pointer">
               <input
                 type="checkbox"
@@ -76,9 +79,11 @@
           </div>
         </div>
 
-        <div v-scroll-animation class="grid md:grid-cols-2 gap-6">
+        <div class="grid md:grid-cols-2 gap-6 pb-6">
           <div>
-            <label class="block text-gray-300 mb-2">Email *</label>
+            <label class="block text-gray-300 mb-2"
+              >Email <span class="text-[#D20000]">*</span></label
+            >
             <input
               type="email"
               required
@@ -87,7 +92,9 @@
             />
           </div>
           <div>
-            <label class="block text-gray-300 mb-2">Nom *</label>
+            <label class="block text-gray-300 mb-2"
+              >Nom <span class="text-[#D20000]">*</span></label
+            >
             <input
               type="text"
               required
@@ -97,9 +104,11 @@
           </div>
         </div>
 
-        <div v-scroll-animation class="grid md:grid-cols-2 gap-6">
+        <div class="grid md:grid-cols-2 gap-6 pb-6">
           <div>
-            <label class="block text-gray-300 mb-2">Prénom *</label>
+            <label class="block text-gray-300 mb-2"
+              >Prénom <span class="text-[#D20000]">*</span></label
+            >
             <input
               type="text"
               required
@@ -108,7 +117,9 @@
             />
           </div>
           <div>
-            <label class="block text-gray-300 mb-2">Date de naissance *</label>
+            <label class="block text-gray-300 mb-2"
+              >Date de naissance <span class="text-[#D20000]">*</span></label
+            >
             <input
               type="date"
               required
@@ -117,7 +128,7 @@
           </div>
         </div>
 
-        <div v-scroll-animation class="grid md:grid-cols-2 gap-6">
+        <div class="grid md:grid-cols-2 gap-6 pb-6">
           <div>
             <label class="block text-gray-300 mb-2">GSM</label>
             <input
@@ -136,7 +147,7 @@
           </div>
         </div>
 
-        <div v-scroll-animation class="grid md:grid-cols-2 gap-6">
+        <div class="grid md:grid-cols-2 gap-6 pb-6">
           <div>
             <label class="block text-gray-300 mb-2">Code postal</label>
             <input
@@ -155,8 +166,10 @@
           </div>
         </div>
 
-        <div v-scroll-animation>
-          <label class="block text-gray-300 mb-2">Lieu des cours *</label>
+        <div class="pb-6">
+          <label class="block text-gray-300 mb-2"
+            >Lieu des cours <span class="text-[#D20000]">*</span></label
+          >
           <input
             type="text"
             required
@@ -165,9 +178,11 @@
           />
         </div>
 
-        <div v-scroll-animation class="grid md:grid-cols-2 gap-6">
+        <div class="grid md:grid-cols-2 gap-6">
           <div>
-            <label class="block text-gray-300 mb-2">Mot de passe *</label>
+            <label class="block text-gray-300 mb-2"
+              >Mot de passe <span class="text-[#D20000]">*</span></label
+            >
             <input
               type="password"
               required
@@ -176,7 +191,9 @@
             />
           </div>
           <div>
-            <label class="block text-gray-300 mb-2">Confirmation *</label>
+            <label class="block text-gray-300 mb-2"
+              >Confirmation <span class="text-[#D20000]">*</span></label
+            >
             <input
               type="password"
               required
@@ -187,9 +204,9 @@
         </div>
 
         <button
-          v-scroll-animation
+          
           type="submit"
-          class="w-full bg-[#D20000] text-white px-8 py-4 text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/50 hover:shadow-lg"
+          class="w-full bg-[#D20000] text-white px-8 py-4 my-6 text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/50 hover:shadow-lg"
         >
           Créer mon compte
         </button>

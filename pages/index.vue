@@ -12,9 +12,9 @@
       <div class="relative z-10 container mx-auto px-4 h-screen">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 h-full items-center">
           <!-- Colonne gauche avec texte -->
-          <div class="space-y-8">
+          <div class="py-8">
             <h1
-              class="text-5xl md:text-7xl font-bold text-[#D20000] font-jura leading-tight animate-fadeIn"
+              class="text-5xl py-8 md:text-7xl text-[#D20000] font-jura leading-tight animate-fadeIn"
             >
               Krav Maga
               <span class="block text-white text-3xl md:text-4xl mt-2"
@@ -25,26 +25,18 @@
               Découvrez l'art de l'autodéfense moderne avec nos instructeurs
               certifiés. Une approche pratique et efficace pour votre sécurité.
             </p>
-            <div class="flex flex-wrap gap-4">
+            <div class="py-8 flex flex-wrap gap-4">
               <a
-                href="/inscription"
-                class="group relative overflow-hidden bg-[#D20000] px-8 py-4 text-lg font-bold"
+              href="/inscription"
+              class="bg-[#D20000] px-8 py-4 text-lg font-bold text-white transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-red-900/30"
               >
-                <span class="relative z-10 text-white"
-                  >Séance d'essai gratuite</span
-                >
-                <div
-                  class="absolute inset-0 bg-red-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
-                ></div>
+              Séance d'essai gratuite
               </a>
               <a
-                href="/inscription"
-                class="group relative overflow-hidden bg-[#3A3A25] px-8 py-4 text-lg font-bold"
+              href="/inscription"
+              class="border-3 border-[#3A3A25] px-8 py-4 text-lg font-bold text-white transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#3A3A25]/30"
               >
-                <span class="relative z-10 text-white">Inscription</span>
-                <div
-                  class="absolute inset-0 bg-[#2b2b1c] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
-                ></div>
+              Inscription
               </a>
             </div>
           </div>
@@ -80,7 +72,6 @@
 
       <!-- Qu'est-ce que le Krav Maga ? -->
       <section
-       
         class="mb-12 px-12 py-10 bg-fixed"
         style="
           background-image: url('/images/Fond-motif1.jpg');
@@ -88,19 +79,20 @@
           background-position: center;
         "
       >
-        <h2  v-scroll-animation
+        <h2
+          v-scroll-animation
           class="text-3xl md:text-5xl text-[#D20000] font-jura font-bold mb-6 animate-fadeIn"
         >
           Qu'est-ce que le Krav Maga ?
         </h2>
-        <div  v-scroll-animation class="grid md:grid-cols-2 gap-8 items-center">
+        <div v-scroll-animation class="grid md:grid-cols-2 gap-8 items-center">
           <div class="space-y-4 animate-slideRight">
             <p class="text-gray-300 text-lg leading-relaxed">
               Le Krav Maga est un système d'autodéfense créé à l'origine pour le
               Mossad israélien. Cette discipline unique combine des techniques
               efficaces avec une philosophie de survie moderne.
             </p>
-            <div class="flex space-x-4">
+            <div class="flex space-x-4 py-4">
               <span
                 class="px-4 py-2 mr-5 bg-[#D20000]/20 text-[#D20000] rounded-full text-sm font-bold"
               >
@@ -122,8 +114,9 @@
       </section>
 
       <!-- Les principes du Krav Maga -->
-      <section  class="mb-12 py-10 px-12">
-        <h2 v-scroll-animation
+      <section class="mb-12 py-10 px-12">
+        <h2
+          v-scroll-animation
           class="text-3xl md:text-5xl text-[#D20000] font-jura font-bold mb-8 animate-fadeIn"
         >
           Les principes du Krav Maga
@@ -173,7 +166,6 @@
 
       <!-- Histoire du Krav Maga -->
       <section
-        
         class="mb-12 grid md:grid-cols-2 gap-8 items-center py-10 px-12 bg-fixed"
         style="
           background-image: url('/images/Fond-motif1.jpg');
@@ -255,7 +247,6 @@
       </section>
       <!-- Section Contact -->
       <section
-        
         id="contact"
         class="p-12 py-10 mb-12 bg-fixed"
         style="
@@ -264,13 +255,14 @@
           background-position: center;
         "
       >
-        <h2 v-scroll-animation
+        <h2
+          v-scroll-animation
           class="text-3xl md:text-4xl text-[#D20000] font-jura font-bold mb-6 text-center"
         >
           Nous contacter
         </h2>
-        <form v-scroll-animation class="max-w-2xl mx-auto space-y-6">
-          <div class="grid md:grid-cols-2 gap-6">
+        <form v-scroll-animation class="max-w-2xl mx-auto py-6">
+          <div class="grid md:grid-cols-2 gap-6 py-6">
             <div>
               <label class="block text-gray-300 mb-2">Nom</label>
               <input
@@ -298,13 +290,15 @@
           </div>
           <button
             type="submit"
-            class="bg-[#D20000] text-white px-8 py-4 text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/50 hover:shadow-lg"
+            class="bg-[#D20000] text-white px-8 py-4 my-6 text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/50 hover:shadow-lg"
           >
             Envoyer le message
           </button>
         </form>
         <div v-scroll-animation class="mt-12">
-          <h3 class="text-2xl text-[#D20000] font-jura font-bold mb-6 text-center">
+          <h3
+            class="text-2xl text-[#D20000] font-jura font-bold mb-6 text-center"
+          >
             Nos localisations
           </h3>
           <div class="grid md:grid-cols-2 gap-8">

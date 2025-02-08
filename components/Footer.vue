@@ -13,20 +13,20 @@
       <!-- Liens rapides -->
       <div>
         <h3 class="text-lg font-jura mb-4 border-b-2 border-red-600 inline-block">Liens rapides</h3>
-        <ul class="space-y-2">
-          <li>
-            <NuxtLink to="/" class="hover:text-red-600 transition-colors">Accueil</NuxtLink>
+        <ul>
+          <li class="py-1">
+            <NuxtLink to="/" class="hover:text-red-600 transition-colors py-2">Accueil</NuxtLink>
           </li>
-          <li>
+          <li class="py-1">
             <NuxtLink to="/tarifs" class="hover:text-red-600 transition-colors">Tarifs/Horaires</NuxtLink>
           </li>
-          <li>
+          <li class="py-1">
             <NuxtLink to="/infos" class="hover:text-red-600 transition-colors">Infos</NuxtLink>
           </li>
-          <li>
+          <li class="py-1">
             <NuxtLink to="/#contact" class="hover:text-red-600 transition-colors">Contact</NuxtLink>
           </li>
-          <li>
+          <li class="py-1">
             <NuxtLink to="/inscription" class="hover:text-red-600 transition-colors">Inscription</NuxtLink>
           </li>
         </ul>
@@ -35,20 +35,20 @@
       <!-- Contact -->
       <div>
         <h3 class="text-lg font-jura mb-4 border-b-2 border-red-600 inline-block">Contact</h3>
-        <ul class="space-y-2">
-          <li>
+        <ul class="">
+          <li class="py-1">
             <span class="font-bold">Adresse Bruxelles:</span> SportCity : Centre sportif de Woluwe-Saint-Pierre
 2 avenue Salomé, 1150 Woluwe-Saint-Pierre, Belgium
           </li>
-          <li>
+          <li class="py-1">
             <span class="font-bold">Adresse Grez-Doiceau:</span> Ecole communale de Grez-Doiceau
 22 rue du Pont au Lin, 1390 Grez-Doiceau, Belgium
           </li>
           
-          <li>
+          <li class="py-1">
             <span class="font-bold">Email:</span> <a href="mailto:contact@kravmaga-adrenaline.fr" class="hover:text-red-600">info@kravmaga-adrenaline.be</a>
           </li>
-          <li class="flex space-x-4 mt-4">
+          <li class="flex mt-4">
             <a href="https://www.facebook.com/krav.maga.adrenaline.bruxelles" class="text-white hover:text-red-600 transition-colors px-5" title="Facebook" alt="Facebook">
               <i class="fa fa-facebook-f"></i> 
             </a>

@@ -206,7 +206,7 @@
           <h4 class="text-xl font-jura text-red-600 mb-2">Horaires</h4>
           <p class="font-mulish text-gray-300 mb-4">
             Dimanches : 17:00 à 19:00 (Ados/adultes uniquement)
-          </p>
+          </p><br>
 
           <h4 class="text-xl font-jura text-red-600 mb-2">Adresse</h4>
           <p class="font-mulish text-gray-300 mb-4">
@@ -218,14 +218,14 @@
             info@kravmaga-adrenaline.be
           </p>
         </div>
-        <br /><br />
+        
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.039827366306!2d4.456488300000001!3d50.8304262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3db9d7a5e8761%3A0xf0cf230484aabe26!2sSportcity!5e0!3m2!1sen!2sbe!4v1738937805306!5m2!1sen!2sbe"
           class="w-full h-64"
           style="
             border: 0;
             filter: grayscale(100%) contrast(90%) brightness(90%);
-            margin-top: 15px;
+            
           "
           allowfullscreen=""
           loading="lazy"
