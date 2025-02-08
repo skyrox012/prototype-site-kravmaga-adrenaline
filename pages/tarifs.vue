@@ -1,4 +1,20 @@
 <template>
+  <Head>
+    <title>Tarifs et horaires - Krav Maga Adrenaline</title>
+    <meta 
+        name="description" 
+        content="Consultez nos tarifs et horaires pour les cours de Krav Maga à Bruxelles et Grez-Doiceau. Séances adaptées à tous les niveaux et groupes d’âge." 
+    />
+    <!-- Balises OG -->
+    <meta property="og:title" content="Tarifs et Horaires - Krav Maga Adrenaline" />
+    <meta property="og:description" content="Découvrez nos forfaits et horaires de cours de Krav Maga. Options flexibles pour tous les niveaux et âges." />
+    <meta property="og:image" content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://prototype-site-kravmaga-adrenaline.vercel.app/tarifs" />
+</Head>
+
+
+
   <section class="bg-black text-white min-h-screen py-12">
     <!-- Hero header -->
     <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">
@@ -230,6 +246,7 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          title="Map Google Brussels"
         >
         </iframe>
       </div>
@@ -284,6 +301,7 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          title="Map Google Grez-Doiceau"
         >
         </iframe>
       </div>

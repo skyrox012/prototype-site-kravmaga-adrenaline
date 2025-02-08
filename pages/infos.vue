@@ -1,4 +1,19 @@
 <template>
+<Head>
+    <title>Informations sur les cours - Krav Maga Adrenaline</title>
+    <meta 
+        name="description" 
+        content="Tout savoir sur nos cours de Krav Maga à Bruxelles et Grez-Doiceau. Techniques, instructeurs et F.A.Q." 
+    />
+    <!-- Balises OG -->
+    <meta property="og:title" content="Cours de Krav Maga - Infos et détails" />
+    <meta property="og:description" content="En savoir plus sur nos cours de Krav Maga : techniques enseignées, niveaux, équipement et déroulement des séances." />
+    <meta property="og:image" content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://prototype-site-kravmaga-adrenaline.vercel.app/infos" />
+</Head>
+
+
   <section class="bg-black text-white min-h-screen py-12">
     <!-- Hero header -->
     <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">

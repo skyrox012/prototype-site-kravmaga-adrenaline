@@ -1,4 +1,19 @@
 <template>
+<Head>
+    <title>Inscription - Rejoignez Krav Maga Adrenaline</title>
+    <meta 
+        name="description" 
+        content="Inscrivez-vous dès maintenant à nos cours de Krav Maga à Bruxelles et Grez-Doiceau. Séances adaptées à tous les âges et niveaux, débutants bienvenus !" 
+    />
+    <!-- Balises OG -->
+    <meta property="og:title" content="Inscription - Krav Maga Adrenaline" />
+    <meta property="og:description" content="Rejoignez notre club de Krav Maga ! Remplissez notre formulaire d'inscription et commencez votre entraînement en self-défense." />
+    <meta property="og:image" content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://prototype-site-kravmaga-adrenaline.vercel.app/inscription" />
+</Head>
+
+
   <section class="bg-[#030806] text-[#F8F5F7] min-h-screen font-mulish py-12">
     <!-- Hero header -->
     <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">

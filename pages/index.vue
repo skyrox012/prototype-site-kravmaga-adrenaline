@@ -1,4 +1,19 @@
 <template>
+  <Head>
+      <title>Krav Maga Adrenaline - Apprenez à vous défendre<</title>
+      <meta
+        name="description"
+        content="Découvrez le Krav Maga à Bruxelles et Grez-Doiceau. Cours pour tous niveaux, enseignement personnalisé et efficace pour votre sécurité et bien-être.
+"
+      />
+      <!-- Balises OG -->
+      <meta property="og:title" content="Club KravMaga Adrenaline" />
+      <meta property="og:description" content="Club de Krav Maga accessible pour enfants et adultes" />
+      <meta property="og:image" content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://prototype-site-kravmaga-adrenaline.vercel.app/" />
+    </Head>
+
   <section class="bg-[#030806] text-[#F8F5F7] min-h-screen font-mulish">
     <!-- Section parallax avec overlay et contenu dynamique -->
     <div class="relative w-full min-h-screen">
@@ -323,6 +338,7 @@
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
+                title="Map Google Brussels"
               >
               </iframe>
             </div>
@@ -346,6 +362,7 @@
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
+                title="Map Google Grez-Doiceau"
               >
               </iframe>
             </div>
