@@ -1,10 +1,17 @@
 module.exports = {
   content: [
-    "./components/**/*.{vue,js}",
+    "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
-    "./plugins/**/*.js",
+    "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
+    "./app.vue",
+  ],
+  safelist: [
+    "space-y-8",
+    "space-x-4",
+    "space-y-6",
+    // Ajoutez ici toutes les classes space-y et space-x que vous utilisez
   ],
   theme: {
     extend: {
