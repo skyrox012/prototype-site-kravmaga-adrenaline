@@ -33,7 +33,7 @@
       ></div>
 
       <!-- Contenu principal avec grid layout -->
-      <div class="relative z-10 container mx-auto px-4 h-screen">
+      <div v-scroll-animation class="relative z-10 container mx-auto px-4 h-screen">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 h-full items-center">
           <!-- Colonne gauche avec texte -->
           <div class="py-8">
@@ -211,7 +211,7 @@
         <img
           src="/images/image6.jpg"
           alt="Image Krav Maga"
-          class="w-full rounded-lg shadow-lg"
+          class="w-full shadow-lg"
         />
       </section>
 
@@ -267,9 +267,11 @@
         "
       >
         <!-- Hero header -->
+         
         <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">
-            <div class="absolute inset-0 left-[-100vw] right-[-100vw] bg-[#110303] opacity-100 skew-y-3 transform -rotate-1"></div>
+           
           <div class="relative z-10">
+            
             <h2 class="text-5xl md:text-7xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6">
               Nous Contacter
             </h2>

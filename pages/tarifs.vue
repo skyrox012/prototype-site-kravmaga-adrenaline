@@ -176,7 +176,7 @@
       class="mx-auto px-4 text-center relative py-16 m-10"
     >
       <div
-        class="absolute inset-0 bg-[#110303] opacity-100 skew-y-3 transform -rotate-1"
+        class="absolute inset-0 bg-[#110303] opacity-100 skew transform -rotate-1"
       ></div>
       <div class="relative z-10">
         <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
