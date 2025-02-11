@@ -1,39 +1,55 @@
 <template>
   <Head>
     <title>Tarifs et horaires - Krav Maga Adrenaline</title>
-    <meta 
-        name="description" 
-        content="Consultez nos tarifs et horaires pour les cours de Krav Maga à Bruxelles et Grez-Doiceau. Séances adaptées à tous les niveaux et groupes d’âge." 
+    <meta
+      name="description"
+      content="Consultez nos tarifs et horaires pour les cours de Krav Maga à Bruxelles et Grez-Doiceau. Séances adaptées à tous les niveaux et groupes d'âge."
     />
     <!-- Balises OG -->
-    <meta property="og:title" content="Tarifs et Horaires - Krav Maga Adrenaline" />
-    <meta property="og:description" content="Découvrez nos forfaits et horaires de cours de Krav Maga. Options flexibles pour tous les niveaux et âges." />
-    <meta property="og:image" content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png" />
+    <meta
+      property="og:title"
+      content="Tarifs et Horaires - Krav Maga Adrenaline"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez nos forfaits et horaires de cours de Krav Maga. Options flexibles pour tous les niveaux et âges."
+    />
+    <meta
+      property="og:image"
+      content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png"
+    />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://prototype-site-kravmaga-adrenaline.vercel.app/tarifs" />
-</Head>
+    <meta
+      property="og:url"
+      content="https://prototype-site-kravmaga-adrenaline.vercel.app/tarifs"
+    />
+  </Head>
 
-
-
-  <section class="bg-black text-white min-h-screen py-12">
+  <section class="bg-black text-white min-h-screen py-12 bg-fixed" style="
+        background-image: url('/images/Fond-motif1.2cgd.jpg');
+        background-size: cover;
+        background-position: center;
+      ">
     <!-- Hero header -->
     <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">
       <div
-        class="absolute inset-0 bg-red-700/10 skew-y-3 transform -rotate-1"
+        class="absolute inset-0 bg-[#110303] opacity-100 skew-y-3 transform -rotate-1"
       ></div>
-      <h1
-        class="text-5xl md:text-7xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6 relative"
-      >
-        Tarifs et Horaires
-      </h1>
-      <div class="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
-      <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
-        Nos Formules et Tarifs
-      </h2>
-      <p class="text-lg md:text-xl font-mulish text-gray-300">
-        Découvrez nos offres adaptées à tous les pratiquants. Simple, clair, et
-        pensé pour votre progression.
-      </p>
+      <div class="relative z-10">
+        <h1
+          class="text-5xl md:text-7xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6"
+        >
+          Tarifs et Horaires
+        </h1>
+        <div class="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
+        <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
+          Nos Formules et Tarifs
+        </h2>
+        <p class="text-lg md:text-xl font-mulish text-gray-300">
+          Découvrez nos offres adaptées à tous les pratiquants. Simple, clair,
+          et pensé pour votre progression.
+        </p>
+      </div>
     </div>
 
     <!-- Section des tarifs -->
@@ -43,12 +59,8 @@
       <!-- Carte : Séance d'essai -->
       <div
         v-scroll-animation
-        class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
-        style="
-          background-image: url('/images/Fond-motif1.jpg');
-          background-size: cover;
-          background-position: center;
-        "
+        class="group bg-[#030806]/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
+      
       >
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
           Séance d'essai
@@ -69,12 +81,8 @@
       <!-- Carte : Abonnement 1 mois -->
       <div
         v-scroll-animation
-        class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
-        style="
-          background-image: url('/images/Fond-motif1.jpg');
-          background-size: cover;
-          background-position: center;
-        "
+        class="group bg-[#030806]/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
+        
       >
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
           Abonnement 1 Mois
@@ -92,12 +100,8 @@
       <!-- Carte : Réductions -->
       <div
         v-scroll-animation
-        class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
-        style="
-          background-image: url('/images/Fond-motif1.jpg');
-          background-size: cover;
-          background-position: center;
-        "
+        class="group bg-[#030806]/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
+        
       >
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
           Réductions
@@ -114,12 +118,8 @@
       <!-- Carte : Assurance -->
       <div
         v-scroll-animation
-        class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
-        style="
-          background-image: url('/images/Fond-motif1.jpg');
-          background-size: cover;
-          background-position: center;
-        "
+        class="group bg-[#030806]/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
+        
       >
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
           Assurance
@@ -137,12 +137,8 @@
       <!-- Carte : T-shirts -->
       <div
         v-scroll-animation
-        class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
-        style="
-          background-image: url('/images/Fond-motif1.jpg');
-          background-size: cover;
-          background-position: center;
-        "
+        class="group bg-[#030806]/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
+        
       >
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
           T-shirts du Club
@@ -158,12 +154,8 @@
       <!-- Carte : Stages -->
       <div
         v-scroll-animation
-        class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
-        style="
-          background-image: url('/images/Fond-motif1.jpg');
-          background-size: cover;
-          background-position: center;
-        "
+        class="group bg-[#030806]/50 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp delay-100"
+        
       >
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">Stages</h3>
         <p class="font-mulish text-gray-300 mb-4">
@@ -184,13 +176,13 @@
       class="mx-auto px-4 text-center relative py-16 m-10"
     >
       <div
-        class="absolute inset-0 bg-red-700/10 skew-y- transform -rotate-1"
+        class="absolute inset-0 bg-[#110303] opacity-100 skew-y-3 transform -rotate-1"
       ></div>
-      <h2
-        class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6 relative"
-      >
-        Horaires et Lieux de Cours
-      </h2>
+      <div class="relative z-10">
+        <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
+          Horaires et Lieux de Cours
+        </h2>
+      </div>
     </div>
 
     <!-- Section des horaires -->
@@ -200,12 +192,8 @@
       <!-- Cours de Bruxelles -->
       <div
         v-scroll-animation
-        class="border-2 border-[#3A3A25] p-6 shadow-lg"
-        style="
-          background-image: url('/images/Fond-motif1.jpg');
-          background-size: cover;
-          background-position: center;
-        "
+        class="border-2 border-[#3A3A25] p-6 shadow-lg bg-[#030806]/50"
+        
       >
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
           Cours de Bruxelles
@@ -222,7 +210,8 @@
           <h4 class="text-xl font-jura text-red-600 mb-2">Horaires</h4>
           <p class="font-mulish text-gray-300 mb-4">
             Dimanches : 17:00 à 19:00 (Ados/adultes uniquement)
-          </p><br>
+          </p>
+          <br />
 
           <h4 class="text-xl font-jura text-red-600 mb-2">Adresse</h4>
           <p class="font-mulish text-gray-300 mb-4">
@@ -234,14 +223,13 @@
             info@kravmaga-adrenaline.be
           </p>
         </div>
-        
+
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.039827366306!2d4.456488300000001!3d50.8304262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3db9d7a5e8761%3A0xf0cf230484aabe26!2sSportcity!5e0!3m2!1sen!2sbe!4v1738937805306!5m2!1sen!2sbe"
           class="w-full h-64"
           style="
             border: 0;
             filter: grayscale(100%) contrast(90%) brightness(90%);
-            
           "
           allowfullscreen=""
           loading="lazy"
@@ -254,12 +242,8 @@
       <!-- Cours de Grez-Doiceau -->
       <div
         v-scroll-animation
-        class="border-2 border-[#3A3A25] p-6 shadow-lg"
-        style="
-          background-image: url('/images/Fond-motif1.jpg');
-          background-size: cover;
-          background-position: center;
-        "
+        class="border-2 border-[#3A3A25] p-6 shadow-lg bg-[#030806]/50"
+        
       >
         <h3 class="text-2xl font-jura text-red-600 mb-4 uppercase">
           Cours de Grez-Doiceau

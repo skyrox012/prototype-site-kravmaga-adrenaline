@@ -1,18 +1,27 @@
 <template>
   <Head>
-      <title>Krav Maga Adrenaline - Apprenez à vous défendre<</title>
-      <meta
-        name="description"
-        content="Découvrez le Krav Maga à Bruxelles et Grez-Doiceau. Cours pour tous niveaux, enseignement personnalisé et efficace pour votre sécurité et bien-être.
+    <title>Krav Maga Adrenaline - Apprenez à vous défendre<</title>
+    <meta
+      name="description"
+      content="Découvrez le Krav Maga à Bruxelles et Grez-Doiceau. Cours pour tous niveaux, enseignement personnalisé et efficace pour votre sécurité et bien-être.
 "
-      />
-      <!-- Balises OG -->
-      <meta property="og:title" content="Club KravMaga Adrenaline" />
-      <meta property="og:description" content="Club de Krav Maga accessible pour enfants et adultes" />
-      <meta property="og:image" content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://prototype-site-kravmaga-adrenaline.vercel.app/" />
-    </Head>
+    />
+    <!-- Balises OG -->
+    <meta property="og:title" content="Club KravMaga Adrenaline" />
+    <meta
+      property="og:description"
+      content="Club de Krav Maga accessible pour enfants et adultes"
+    />
+    <meta
+      property="og:image"
+      content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://prototype-site-kravmaga-adrenaline.vercel.app/"
+    />
+  </Head>
 
   <section class="bg-[#030806] text-[#F8F5F7] min-h-screen font-mulish">
     <!-- Section parallax avec overlay et contenu dynamique -->
@@ -29,7 +38,7 @@
           <!-- Colonne gauche avec texte -->
           <div class="py-8">
             <h1
-              class="text-5xl py-8 md:text-7xl text-[#D20000] font-jura leading-tight animate-fadeIn"
+              class="text-5xl py-8 md:text-7xl text-[#d20000] font-jura leading-tight animate-fadeIn"
             >
               Krav Maga
               <span class="block text-white text-3xl md:text-4xl mt-2"
@@ -42,16 +51,16 @@
             </p>
             <div class="py-8 flex flex-wrap gap-4">
               <a
-              href="/inscription"
-              class="bg-[#D20000] px-8 py-4 text-lg font-bold text-white transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-red-900/30"
+                href="/inscription"
+                class="bg-[#D20000] px-8 py-4 text-lg font-bold text-white transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-red-900/30"
               >
-              Séance d'essai gratuite
+                Séance d'essai gratuite
               </a>
               <a
-              href="/inscription"
-              class="border-3 border-[#3A3A25] px-8 py-4 text-lg font-bold text-white transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#3A3A25]/30"
+                href="/inscription"
+                class="border-3 border-[#3A3A25] px-8 py-4 text-lg font-bold text-white transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#3A3A25]/30"
               >
-              Inscription
+                Inscription
               </a>
             </div>
           </div>
@@ -69,27 +78,14 @@
     </div>
 
     <!-- Contenu principal -->
-    <div class="py-12 mx-auto w-full">
-      <!-- Dernières News avec animation au scroll -->
-      <section
-        v-scroll-animation
-        class="mb-12 py-10 px-14 rounded-2xl transform transition-all duration-500 hover:shadow-2xl hover:shadow-red-900/20"
-      >
-        <h2
-          class="text-3xl md:text-4xl text-[#D20000] font-jura font-bold mb-4"
-        >
-          Dernières News
-        </h2>
-        <p class="text-gray-300 text-lg">
-          Restez informé des dernières actualités et événements de notre club.
-        </p>
-      </section>
+    <div class="py-0 pb-0 mx-auto w-full">
+      
 
       <!-- Qu'est-ce que le Krav Maga ? -->
       <section
-        class="mb-12 px-12 py-10 bg-fixed"
+        class="mb-12 px-12 py-20 bg-fixed"
         style="
-          background-image: url('/images/Fond-motif1.jpg');
+          background-image: url('/images/Fond-motif1.2cg.jpg');
           background-size: cover;
           background-position: center;
         "
@@ -123,7 +119,7 @@
           <img
             src="/images/image21.jpg"
             alt="Krav Maga en action"
-            class="w-full shadow-2xl transform hover:scale-105 transition-all duration-500 animate-slideLeft"
+            class="w-full shadow-2xl transform transition-all duration-500 animate-slideLeft"
           />
         </div>
       </section>
@@ -183,7 +179,7 @@
       <section
         class="mb-12 grid md:grid-cols-2 gap-8 items-center py-10 px-12 bg-fixed"
         style="
-          background-image: url('/images/Fond-motif1.jpg');
+          background-image: url('/images/Fond-motif1.2cg.jpg');
           background-size: cover;
           background-position: center;
         "
@@ -263,26 +259,34 @@
       <!-- Section Contact -->
       <section
         id="contact"
-        class="p-12 py-10 mb-12 bg-fixed"
+        class="p-12 pb-5 bg-fixed"
         style="
-          background-image: url('/images/Fond-motif1.jpg');
+          background-image: url('/images/Fond-motif1.2cgd.jpg');
           background-size: cover;
           background-position: center;
         "
       >
-        <h2
-          v-scroll-animation
-          class="text-3xl md:text-4xl text-[#D20000] font-jura font-bold mb-6 text-center"
-        >
-          Nous contacter
-        </h2>
+        <!-- Hero header -->
+        <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">
+            <div class="absolute inset-0 left-[-100vw] right-[-100vw] bg-[#110303] opacity-100 skew-y-3 transform -rotate-1"></div>
+          <div class="relative z-10">
+            <h2 class="text-5xl md:text-7xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6">
+              Nous Contacter
+            </h2>
+            <div class="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
+            <p class="text-lg md:text-xl font-mulish text-gray-300">
+              Une question ? Besoin d'informations ? N'hésitez pas à nous contacter.
+            </p>
+          </div>
+        </div>
+
         <form v-scroll-animation class="max-w-2xl mx-auto py-6">
           <div class="grid md:grid-cols-2 gap-6 py-6">
             <div>
               <label class="block text-gray-300 mb-2">Nom</label>
               <input
                 type="text"
-                class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors"
+                class="w-full bg-[#101010] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors"
                 placeholder="Votre nom"
               />
             </div>
@@ -290,7 +294,7 @@
               <label class="block text-gray-300 mb-2">Email</label>
               <input
                 type="email"
-                class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors"
+                class="w-full bg-[#101010] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors"
                 placeholder="votre@email.com"
               />
             </div>
@@ -299,26 +303,26 @@
             <label class="block text-gray-300 mb-2">Message</label>
             <textarea
               rows="4"
-              class="w-full bg-[#1a1a1a] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors"
+              class="w-full bg-[#101010] border-2 border-[#3A3A25] p-3 text-white focus:border-[#D20000] focus:outline-none transition-colors"
               placeholder="Votre message"
             ></textarea>
           </div>
           <button
             type="submit"
-            class="bg-[#D20000] text-white px-8 py-4 my-6 text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/50 hover:shadow-lg"
+            class="bg-[#D20000] text-white px-8 py-4 my-6 text-lg font-bold transform transition-all duration-300 hover:scale-105 hover:bg-red-700 hover:shadow-red-500/30 hover:shadow-lg"
           >
             Envoyer le message
           </button>
         </form>
-        <div v-scroll-animation class="mt-12">
+        <div v-scroll-animation>
           <h3
-            class="text-2xl text-[#D20000] font-jura font-bold mb-6 text-center"
+            class="text-4xl text-[#D20000] font-jura font-bold mb-10"
           >
             Nos localisations
           </h3>
           <div class="grid md:grid-cols-2 gap-8">
             <!-- Bruxelles Location -->
-            <div class="bg-black/30 p-6 rounded-lg">
+            <div class="border-2 border-[#3A3A25] p-6 shadow-lg bg-[#030806]/50">
               <h4 class="text-xl text-white font-bold mb-4">
                 Bruxelles - SportCity
               </h4>
@@ -344,7 +348,7 @@
             </div>
 
             <!-- Grez-Doiceau Location -->
-            <div class="bg-black/30 p-6 rounded-lg">
+            <div class="border-2 border-[#3A3A25] p-6 shadow-lg bg-[#030806]/50">
               <h4 class="text-xl text-white font-bold mb-4">Grez-Doiceau</h4>
               <p class="text-gray-300 mb-4">
                 Ecole communale de Grez-Doiceau<br />
@@ -368,7 +372,7 @@
             </div>
           </div>
 
-          <div class="mt-6 text-center">
+          <div class="mt-6 pb-0">
             <p class="text-gray-300">
               Email:
               <a

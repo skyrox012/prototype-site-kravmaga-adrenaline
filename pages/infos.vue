@@ -1,38 +1,52 @@
 <template>
-<Head>
+  <Head>
     <title>Informations sur les cours - Krav Maga Adrenaline</title>
-    <meta 
-        name="description" 
-        content="Tout savoir sur nos cours de Krav Maga à Bruxelles et Grez-Doiceau. Techniques, instructeurs et F.A.Q." 
+    <meta
+      name="description"
+      content="Tout savoir sur nos cours de Krav Maga à Bruxelles et Grez-Doiceau. Techniques, instructeurs et F.A.Q."
     />
     <!-- Balises OG -->
     <meta property="og:title" content="Cours de Krav Maga - Infos et détails" />
-    <meta property="og:description" content="En savoir plus sur nos cours de Krav Maga : techniques enseignées, niveaux, équipement et déroulement des séances." />
-    <meta property="og:image" content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png" />
+    <meta
+      property="og:description"
+      content="En savoir plus sur nos cours de Krav Maga : techniques enseignées, niveaux, équipement et déroulement des séances."
+    />
+    <meta
+      property="og:image"
+      content="https://prototype-site-kravmaga-adrenaline.vercel.app/public/images/kma-logo-small.png"
+    />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://prototype-site-kravmaga-adrenaline.vercel.app/infos" />
-</Head>
+    <meta
+      property="og:url"
+      content="https://prototype-site-kravmaga-adrenaline.vercel.app/infos"
+    />
+  </Head>
 
-
-  <section class="bg-black text-white min-h-screen py-12">
+  <section class="bg-black text-white min-h-screen py-12 bg-fixed" style="
+        background-image: url('/images/Fond-motif1.2cgd.jpg');
+        background-size: cover;
+        background-position: center;
+      ">
     <!-- Hero header -->
     <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">
       <div
-        class="absolute inset-0 bg-red-700/10 skew-y-3 transform -rotate-1"
+        class="absolute inset-0 bg-[#110303] opacity-100 skew-y-3 transform -rotate-1"
       ></div>
-      <h1
-        class="text-5xl md:text-7xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6 relative"
-      >
-        Informations sur le Krav Maga
-      </h1>
-      <div class="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
-      <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
-        Découvrez Notre Programme
-      </h2>
-      <p class="text-lg md:text-xl font-mulish text-gray-300">
-        Découvrez notre approche du Krav Maga, les principes de nos cours et les
-        compétences que vous développerez au fil de votre apprentissage.
-      </p>
+      <div class="relative z-10">
+        <h1
+          class="text-5xl md:text-7xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6"
+        >
+          Informations sur le Krav Maga
+        </h1>
+        <div class="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
+        <h2 class="text-4xl md:text-5xl font-jura text-red-600 uppercase mb-6">
+          Découvrez Notre Programme
+        </h2>
+        <p class="text-lg md:text-xl font-mulish text-gray-300">
+          Découvrez notre approche du Krav Maga, les principes de nos cours et
+          les compétences que vous développerez au fil de votre apprentissage.
+        </p>
+      </div>
     </div>
 
     <!-- Section Le Cours -->
@@ -143,13 +157,15 @@
       class="mx-auto px-4 text-center relative py-16 m-10"
     >
       <div
-        class="absolute inset-0 bg-red-700/10 skew-y transform -rotate-2"
+        class="absolute inset-0 bg-[#110303] opacity-100 skew transform -rotate-2"
       ></div>
-      <h2
-        class="text-4xl md:text-5xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6 relative"
-      >
-        Nos Instructeurs
-      </h2>
+      <div class="relative z-10">
+        <h2
+          class="text-4xl md:text-5xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6"
+        >
+          Nos Instructeurs
+        </h2>
+      </div>
     </div>
     <div v-scroll-animation class="container mx-auto px-4 mb-12">
       <p
@@ -297,13 +313,15 @@
       <!-- Titre FAQ -->
       <div class="mx-auto px-4 text-center relative py-16 m-10">
         <div
-          class="absolute inset-0 bg-red-700/10 skew-y-3 transform -rotate-2"
+          class="absolute inset-0 bg-[#110303] opacity-100 skew-y-3 transform -rotate-2"
         ></div>
-        <h2
-          class="text-4xl md:text-5xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6 relative"
-        >
-          F.A.Q.
-        </h2>
+        <div class="relative z-10">
+          <h2
+            class="text-4xl md:text-5xl font-jura text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 uppercase mb-6"
+          >
+            F.A.Q.
+          </h2>
+        </div>
       </div>
       <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
