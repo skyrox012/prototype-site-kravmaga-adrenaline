@@ -50,7 +50,7 @@
     </div>
 
     <!-- Section Le Cours -->
-    <div v-scroll-animation class="container mx-auto px-4 mb-12">
+    <div v-scroll-animation class="container mx-auto px-5 mb-12">
       <h2 class="text-3xl font-jura text-red-600 mb-6">Le Cours</h2>
       <p class="font-mulish text-gray-300 mb-6">
         Le déroulement d'un cours de Krav Maga suit un schéma précis qui combine
@@ -167,7 +167,7 @@
         </h2>
       </div>
     </div>
-    <div v-scroll-animation class="container mx-auto px-4 mb-12">
+    <div v-scroll-animation class="container mx-auto px-5 mb-12">
       <p
         class="font-mulish text-gray-300 mb-12 text-center max-w-3xl mx-auto text-lg"
       >
@@ -323,7 +323,7 @@
           </h2>
         </div>
       </div>
-      <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="container mx-auto px-5 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <div
             v-for="(faq, index) in faqs.slice(0, Math.ceil(faqs.length / 2))"

@@ -89,7 +89,7 @@
     </div>
 
     <!-- Contenu principal -->
-    <div class="py-0 pb-0 mx-auto w-full">
+    <div class="py-0 pb-0 mx-auto w-full px-5">
       
 
       <!-- Qu'est-ce que le Krav Maga ? -->

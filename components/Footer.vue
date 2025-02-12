@@ -3,7 +3,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
-  <footer class="bg-[#030806] text-white py-8 border-t border-white/10">
+  <footer class="bg-[#030806] text-white py-8 border-t border-white/30">
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
       <!-- Logo et Description -->
       <div class="flex flex-col items-start">
@@ -67,27 +67,27 @@
         </h3>
         <ul class="">
           <li class="py-1">
-            <span class="font-bold">Adresse Bruxelles:</span> SportCity : Centre
+            <span class="font-bold"><i class="fa fa-map-marker mr-2 text-red-600"></i>Bruxelles:</span> SportCity : Centre
             sportif de Woluwe-Saint-Pierre 2 avenue Salomé, 1150
             Woluwe-Saint-Pierre, Belgium
           </li>
           <li class="py-1">
-            <span class="font-bold">Adresse Grez-Doiceau:</span> Ecole communale
+            <span class="font-bold"><i class="fa fa-map-marker mr-2 text-red-600"></i>Grez-Doiceau:</span> Ecole communale
             de Grez-Doiceau 22 rue du Pont au Lin, 1390 Grez-Doiceau, Belgium
           </li>
 
           <li class="py-1">
-            <span class="font-bold">Email:</span>
+            <span class="font-bold"><i class="fa fa-envelope mr-2 text-red-600"></i></span>
             <a
               href="mailto:contact@kravmaga-adrenaline.fr"
               class="hover:text-red-600"
-              >info@kravmaga-adrenaline.be</a
+              > info@kravmaga-adrenaline.be</a
             >
           </li>
           <li class="flex mt-4">
             <a
               href="https://www.facebook.com/krav.maga.adrenaline.bruxelles"
-              class="text-white hover:text-red-600 transition-colors px-5"
+              class="text-white hover:text-red-600 transition-colors pr-5"
               title="Facebook"
               alt="Facebook"
             >
