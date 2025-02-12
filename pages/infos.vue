@@ -22,7 +22,7 @@
     />
   </Head>
 
-  <section class="bg-black text-white min-h-screen py-12 bg-fixed" style="
+  <section class="bg-[#030806] text-white min-h-screen py-12 bg-fixed" style="
         background-image: url('/images/Fond-motif1.2cgd.jpg');
         background-size: cover;
         background-position: center;

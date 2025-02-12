@@ -1,5 +1,6 @@
 
 <template>
+    <Navbar />
   <div>
     <Navbar />
     <main class="pt-[60px]">

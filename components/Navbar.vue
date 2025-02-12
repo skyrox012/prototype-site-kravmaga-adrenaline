@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="fixed top-0 left-0 w-full bg-black text-white shadow-lg z-50 transition-transform duration-300"
+    class="fixed top-0 left-0 w-full bg-[#030806] text-white shadow-lg z-50 transition-transform duration-300"
     :class="{ '-translate-y-full': !showNavbar }"
   >
     <div class="container mx-auto flex justify-between items-center px-4 py-3">

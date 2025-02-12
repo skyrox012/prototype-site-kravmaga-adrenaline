@@ -23,7 +23,7 @@
   </Head>
 
   <section class="bg-[#030806] text-[#F8F5F7] min-h-screen font-mulish bg-fixed" style="
-        background-image: url('/images/Fond-motif1.2.jpg');
+        background-image: url('/images/Fond-motif1.2cgd.jpg');
         background-size: cover;
         background-position: center;
       ">

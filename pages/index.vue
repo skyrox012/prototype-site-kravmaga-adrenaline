@@ -70,8 +70,19 @@
             <img
               src="/images/kma-logo-small.png"
               alt="Krav Maga Logo"
-              class="w-full max-w-md mx-auto transform hover:scale-105 transition-all duration-500"
+              class="w-full max-w-md mx-auto transform transition-all duration-500"
             />
+          </div>
+          <!-- Flèche animée -->
+          <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce pb-15">
+            <div class="flex flex-col items-center">
+              <svg class="w-8 h-8 text-[#D20000]" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-width="3" d="M6 12l6 6 6-6" />
+              </svg>
+              <svg class="w-8 h-8 text-white -mt-4" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-width="3" d="M6 12l6 6 6-6" />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
