@@ -21,8 +21,8 @@
       content="https://prototype-site-kravmaga-adrenaline.vercel.app/infos"
     />
   </Head>
-
-  <section class="bg-[#030806] text-white min-h-screen py-12 bg-fixed" style="
+  <!-- Info Krav -->
+  <section class="bg-[#030806] text-white min-h-screen pb-12 bg-fixed" style="
         background-image: url('/images/Fond-motif1.2cgd.jpg');
         background-size: cover;
         background-position: center;
@@ -50,7 +50,7 @@
     </div>
 
     <!-- Section Le Cours -->
-    <div v-scroll-animation class="container mx-auto px-5 mb-12">
+    <div v-scroll-animation class="container mx-auto px-10 mb-12">
       <h2 class="text-3xl font-jura text-red-600 mb-6">Le Cours</h2>
       <p class="font-mulish text-gray-300 mb-6">
         Le déroulement d'un cours de Krav Maga suit un schéma précis qui combine
@@ -167,7 +167,7 @@
         </h2>
       </div>
     </div>
-    <div v-scroll-animation class="container mx-auto px-5 mb-12">
+    <div v-scroll-animation class="container mx-auto px-10 mb-12">
       <p
         class="font-mulish text-gray-300 mb-12 text-center max-w-3xl mx-auto text-lg"
       >
@@ -176,7 +176,7 @@
         enseignement de haute qualité, axé sur la sécurité, la progression et la
         technique.
       </p>
-
+      <!-- Contenu Instructeurs -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
         <!-- Laurent -->
         <div
@@ -323,81 +323,73 @@
           </h2>
         </div>
       </div>
-      <div class="container mx-auto px-5 grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
-          <div
-            v-for="(faq, index) in faqs.slice(0, Math.ceil(faqs.length / 2))"
-            :key="index"
-            class="border-b border-gray-600 py-4"
+       <!-- Contenu FAQ -->
+      <div class="container mx-auto px-10 max-w-6xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+          <div>
+        <div
+          v-for="(faq, index) in faqs.slice(0, Math.ceil(faqs.length / 2))"
+          :key="index"
+          v-scroll-animation
+          class="bg-black/20 backdrop-blur-sm mb-4 border-l-4 border-red-800/50 hover:border-red-600 transition-all duration-300"
+        >
+          <button
+            class="w-full flex justify-between items-center text-left p-6 font-mulish text-gray-200 hover:text-red-500 focus:outline-none"
+            @click="toggleFaq(index)"
           >
-            <button
-              class="w-full flex justify-between items-center text-left text-lg font-mulish text-gray-300 hover:text-red-600 focus:outline-none"
-              @click="toggleFaq(index)"
+            <span class="text-lg font-medium pr-8">{{ faq.question }}</span>
+            <svg
+          :class="{ 'transform rotate-180': faq.open }"
+          class="w-6 h-6 transition-transform duration-500 text-red-500"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
             >
-              <span>{{ faq.question }}</span>
-              <svg
-                :class="{ 'transform rotate-180': faq.open }"
-                class="w-5 h-5 transition-transform duration-300"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </button>
-            <div
-              v-show="faq.open"
-              class="overflow-hidden transition-all duration-300 ease-in-out"
-              :style="{ maxHeight: faq.open ? '500px' : '0px' }"
-            >
-              <p class="mt-3 text-gray-400 font-mulish">
-                {{ faq.answer }}
-              </p>
-            </div>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div
+            v-show="faq.open"
+            class="overflow-hidden transition-all duration-500"
+          >
+            <p class="px-6 pb-6 text-gray-300 font-mulish leading-relaxed">
+          {{ faq.answer }}
+            </p>
           </div>
         </div>
-        <div>
-          <div
-            v-for="(faq, index) in faqs.slice(Math.ceil(faqs.length / 2))"
-            :key="index + Math.ceil(faqs.length / 2)"
-            class="border-b border-gray-600 py-4"
+          </div>
+
+          <div>
+        <div
+          v-for="(faq, index) in faqs.slice(Math.ceil(faqs.length / 2))"
+          :key="index + Math.ceil(faqs.length / 2)"
+          v-scroll-animation
+          class="bg-black/20 backdrop-blur-sm mb-4 border-l-4 border-red-800/50 hover:border-red-600 transition-all duration-300"
+        >
+          <button
+            class="w-full flex justify-between items-center text-left p-6 font-mulish text-gray-200 hover:text-red-500 focus:outline-none"
+            @click="toggleFaq(index + Math.ceil(faqs.length / 2))"
           >
-            <button
-              class="w-full flex justify-between items-center text-left text-lg font-mulish text-gray-300 hover:text-red-600 focus:outline-none"
-              @click="toggleFaq(index + Math.ceil(faqs.length / 2))"
+            <span class="text-lg font-medium pr-8">{{ faq.question }}</span>
+            <svg
+          :class="{ 'transform rotate-180': faq.open }"
+          class="w-6 h-6 transition-transform duration-500 text-red-500"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
             >
-              <span>{{ faq.question }}</span>
-              <svg
-                :class="{ 'transform rotate-180': faq.open }"
-                class="w-5 h-5 transition-transform duration-300"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </button>
-            <div
-              v-show="faq.open"
-              class="overflow-hidden transition-all duration-300 ease-in-out"
-              :style="{ maxHeight: faq.open ? '500px' : '0px' }"
-            >
-              <p class="mt-3 text-gray-400 font-mulish">
-                {{ faq.answer }}
-              </p>
-            </div>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div
+            v-show="faq.open"
+            class="overflow-hidden transition-all duration-500"
+          >
+            <p class="px-6 pb-6 text-gray-300 font-mulish leading-relaxed">
+          {{ faq.answer }}
+            </p>
+          </div>
+        </div>
           </div>
         </div>
       </div>

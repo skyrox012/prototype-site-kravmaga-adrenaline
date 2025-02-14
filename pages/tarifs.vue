@@ -23,15 +23,20 @@
       property="og:url"
       content="https://prototype-site-kravmaga-adrenaline.vercel.app/tarifs"
     />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   </Head>
 
-  <section class="bg-black text-white min-h-screen py-12 bg-fixed" style="
+  <section class="bg-black text-white min-h-screen bg-fixed" style="
         background-image: url('/images/Fond-motif1.2cgd.jpg');
         background-size: cover;
         background-position: center;
       ">
     <!-- Hero header -->
-    <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">
+    <div v-scroll-animation class="mx-auto px-4 text-center relative py-16 ">
       <div
         class="absolute inset-0 bg-[#110303] opacity-100 skew-y-3 transform -rotate-1"
       ></div>
@@ -187,7 +192,7 @@
 
     <!-- Section des horaires -->
     <div
-      class="container mx-auto px-4 mt-12 grid grid-cols-1 md:grid-cols-2 gap-8"
+      class="container mx-auto px-4 mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 pb-12"
     >
       <!-- Cours de Bruxelles -->
       <div
@@ -207,18 +212,20 @@
         </p>
 
         <div class="mt-6">
-          <h4 class="text-xl font-jura text-red-600 mb-2">Horaires</h4>
+            <h4 class="text-xl font-jura text-red-600 mb-2">
+            <i class="fa fa-clock-o"></i> Horaires
+            </h4>
           <p class="font-mulish text-gray-300 mb-4">
             Dimanches : 17:00 à 19:00 (Ados/adultes uniquement)
           </p>
           <br />
 
-          <h4 class="text-xl font-jura text-red-600 mb-2">Adresse</h4>
+          <h4 class="text-xl font-jura text-red-600 mb-2"><i class="fa fa-map-marker mr-2 text-red-600"></i>Adresse</h4>
           <p class="font-mulish text-gray-300 mb-4">
             Sport City : Avenue Salomé 2 - 1150 Woluwe-Saint-Pierre
           </p>
 
-          <h4 class="text-xl font-jura text-red-600 mb-2">Email</h4>
+          <h4 class="text-xl font-jura text-red-600 mb-2"><i class="fa fa-envelope mr-2 text-red-600"></i>Email</h4>
           <p class="font-mulish text-gray-300 mb-4">
             info@kravmaga-adrenaline.be
           </p>
@@ -256,7 +263,7 @@
         </p>
 
         <div class="mt-6">
-          <h4 class="text-xl font-jura text-red-600 mb-2">Horaires</h4>
+          <h4 class="text-xl font-jura text-red-600 mb-2"><i class="fa fa-clock-o"></i> Horaires</h4>
           <p class="font-mulish text-gray-300 mb-4">
             Cours enfants : Vendredis de 18:00 à 20:00
           </p>
@@ -264,13 +271,13 @@
             Cours ados/adultes : Vendredis de 20:00 à 22:00
           </p>
 
-          <h4 class="text-xl font-jura text-red-600 mb-2">Adresse</h4>
+          <h4 class="text-xl font-jura text-red-600 mb-2"><i class="fa fa-map-marker mr-2 text-red-600"></i>Adresse</h4>
           <p class="font-mulish text-gray-300 mb-4">
             Ecole communale de Grez-Doiceau : Rue du Pont au Lin 22 - 1390
             Grez-Doiceau
           </p>
 
-          <h4 class="text-xl font-jura text-red-600 mb-2">Email</h4>
+          <h4 class="text-xl font-jura text-red-600 mb-2"><i class="fa fa-envelope mr-2 text-red-600"></i>Email</h4>
           <p class="font-mulish text-gray-300 mb-4">
             info@kravmaga-adrenaline.be
           </p>

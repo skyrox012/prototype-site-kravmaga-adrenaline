@@ -21,6 +21,10 @@
       property="og:url"
       content="https://prototype-site-kravmaga-adrenaline.vercel.app/"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   </Head>
 
   <section class="bg-[#030806] text-[#F8F5F7] min-h-screen font-mulish">
@@ -89,7 +93,7 @@
     </div>
 
     <!-- Contenu principal -->
-    <div class="py-0 pb-0 mx-auto w-full px-5">
+    <div class="py-0 pb-0 mx-auto w-full">
       
 
       <!-- Qu'est-ce que le Krav Maga ? -->
@@ -336,7 +340,7 @@
           <div class="grid md:grid-cols-2 gap-8">
             <!-- Bruxelles Location -->
             <div class="border-2 border-[#3A3A25] p-6 shadow-lg bg-[#030806]/50">
-              <h4 class="text-xl text-white font-bold mb-4">
+              <h4 class="text-xl text-white font-bold mb-4"><i class="fa fa-map-marker mr-2 text-red-600"></i>
                 Bruxelles - SportCity
               </h4>
               <p class="text-gray-300 mb-4">
@@ -362,7 +366,7 @@
 
             <!-- Grez-Doiceau Location -->
             <div class="border-2 border-[#3A3A25] p-6 shadow-lg bg-[#030806]/50">
-              <h4 class="text-xl text-white font-bold mb-4">Grez-Doiceau</h4>
+              <h4 class="text-xl text-white font-bold mb-4"><i class="fa fa-map-marker mr-2 text-red-600"></i>Grez-Doiceau</h4>
               <p class="text-gray-300 mb-4">
                 Ecole communale de Grez-Doiceau<br />
                 22 rue du Pont au Lin<br />
@@ -387,10 +391,10 @@
 
           <div class="mt-6 pb-0">
             <p class="text-gray-300">
-              Email:
+              <i class="fa fa-envelope mr-2 text-red-600"></i>
               <a
                 href="mailto:info@kravmaga-adrenaline.be"
-                class="text-[#D20000] hover:underline"
+                class="text-gray-300 hover:text-red-600"
                 >info@kravmaga-adrenaline.be</a
               >
             </p>
