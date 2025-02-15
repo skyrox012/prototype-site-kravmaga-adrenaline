@@ -87,7 +87,7 @@
           <li class="flex mt-4">
             <a
               href="https://www.facebook.com/krav.maga.adrenaline.bruxelles"
-              class="text-white hover:text-red-600 transition-colors pr-5"
+              class="text-white hover:text-red-600 transition-colors pr-5" target="_blank"
               title="Facebook"
               alt="Facebook"
             >

@@ -44,7 +44,7 @@
             <h1
               class="text-5xl py-8 md:text-7xl text-[#d20000] font-jura leading-tight animate-fadeIn"
             >
-              Krav Maga
+              Krav Maga Adrenaline
               <span class="block text-white text-3xl md:text-4xl mt-2"
                 >Bruxelles & Wavre</span
               >
@@ -107,11 +107,11 @@
       >
         <h2
           v-scroll-animation
-          class="text-3xl md:text-5xl text-[#D20000] font-jura font-bold mb-6 animate-fadeIn"
+          class="text-3xl md:text-5xl text-[#D20000] font-jura font-bold mb-6 animate-fadeIn container mx-auto"
         >
           Qu'est-ce que le Krav Maga ?
         </h2>
-        <div v-scroll-animation class="grid md:grid-cols-2 gap-8 items-center">
+        <div v-scroll-animation class="grid md:grid-cols-2 gap-8 items-center container mx-auto">
           <div class="space-y-4 animate-slideRight">
             <p class="text-gray-300 text-lg leading-relaxed">
               Le Krav Maga est un système d'autodéfense créé à l'origine pour le
@@ -143,11 +143,11 @@
       <section class="mb-12 py-10 px-12">
         <h2
           v-scroll-animation
-          class="text-3xl md:text-5xl text-[#D20000] font-jura font-bold mb-8 animate-fadeIn"
+          class="text-3xl md:text-5xl text-[#D20000] font-jura font-bold mb-8 animate-fadeIn container mx-auto"
         >
           Les principes du Krav Maga
         </h2>
-        <div v-scroll-animation class="grid md:grid-cols-3 gap-8">
+        <div v-scroll-animation class="grid md:grid-cols-3 gap-8 container mx-auto">
           <div
             class="group bg-black/30 p-8 border-2 border-[#3A3A25] hover:border-[#D20000] transform hover:-translate-y-2 transition-all duration-500 animate-slideUp"
           >
@@ -192,85 +192,90 @@
 
       <!-- Histoire du Krav Maga -->
       <section
-        class="mb-12 grid md:grid-cols-2 gap-8 items-center py-10 px-12 bg-fixed"
+        class="mb-12 py-10 px-12 bg-fixed"
         style="
           background-image: url('/images/Fond-motif1.2cg.jpg');
           background-size: cover;
           background-position: center;
         "
       >
-        <div>
-          <h2 class="text-3xl text-[#D20000] font-jura font-bold mb-4">
-            L'histoire du Krav Maga
-          </h2>
-          <p class="text-gray-300 mb-4">
-            Le Krav Maga a été développé par <strong>Imi Lichtenfeld</strong>,
-            un citoyen tchécoslovaque, fils d'un officier de police réputé de
-            Bratislava. Passionné par la boxe, le judo et le ju-jitsu, il a dû
-            fuir son pays avec sa famille et s'est réfugié en Israël.
-          </p>
-          <p class="text-gray-300 mb-4">
-            Après la création de l'État d’Israël en 1948, Imi a été chargé de
-            développer un système de combat rapproché pour les Forces de Défense
-            Israéliennes (IDF). Son objectif était d'entraîner aussi bien les
-            soldats expérimentés que les recrues sans formation martiale
-            préalable.
-          </p>
-          <p class="text-gray-300">
-            En 1964, après sa retraite militaire, il a commencé à enseigner le
-            Krav Maga aux civils et aux forces de l’ordre internationales. En
-            1978, il a fondé l'<strong>Association de Krav Maga</strong> pour
-            structurer son enseignement à travers le monde.
-          </p>
+        <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center">
+          <div>
+        <h2 class="text-3xl text-[#D20000] font-jura font-bold mb-4 ">
+          L'histoire du Krav Maga
+        </h2>
+        <p class="text-gray-300 mb-4">
+          Le Krav Maga a été développé par <strong>Imi Lichtenfeld</strong>,
+          un citoyen tchécoslovaque, fils d'un officier de police réputé de
+          Bratislava. Passionné par la boxe, le judo et le ju-jitsu, il a dû
+          fuir son pays avec sa famille et s'est réfugié en Israël.
+        </p>
+        <p class="text-gray-300 mb-4">
+          Après la création de l'État d'Israël en 1948, Imi a été chargé de
+          développer un système de combat rapproché pour les Forces de Défense
+          Israéliennes (IDF). Son objectif était d'entraîner aussi bien les
+          soldats expérimentés que les recrues sans formation martiale
+          préalable.
+        </p>
+        <p class="text-gray-300">
+          En 1964, après sa retraite militaire, il a commencé à enseigner le
+          Krav Maga aux civils et aux forces de l'ordre internationales. En
+          1978, il a fondé l'<strong>Association de Krav Maga</strong> pour
+          structurer son enseignement à travers le monde.
+        </p>
+          </div>
+          <img
+        src="/images/image6.jpg"
+        alt="Image Krav Maga"
+        class="w-full shadow-lg"
+          />
         </div>
-        <img
-          src="/images/image6.jpg"
-          alt="Image Krav Maga"
-          class="w-full shadow-lg"
-        />
       </section>
 
       <!-- La Fédération Worldwide -->
       <section
         v-scroll-animation
-        class="mb-12 grid md:grid-cols-2 gap-8 items-center px-12 py-10"
+        class="mb-12 px-12 py-10"
       >
-        <img
-          src="/images/kmw-logo.png"
-          alt="Logo Krav Maga Worldwide"
-          class="w-full rounded-lg shadow-lg"
-        />
-        <div>
-          <h2 class="text-3xl text-[#D20000] font-jura font-bold mb-4">
-            La fédération Worldwide
-          </h2>
-          <p class="text-gray-300 mb-4">
-            En 1981, l’<strong>Association de Krav Maga</strong> en Israël a
-            organisé le premier séminaire international pour instructeurs à
-            l'Institut Wingate. Parmi les participants figurait
-            <strong>Darren Levine</strong>, un passionné d'arts martiaux basé en
-            Californie.
-          </p>
-          <p class="text-gray-300 mb-4">
-            Sous la direction d’Imi Lichtenfeld, Levine et ses élèves ont adapté
-            le Krav Maga aux forces de police et aux militaires américains. En
-            1987, il a fondé l’<strong
-              >Association américaine de Krav Maga</strong
-            >, qui est rapidement devenue un centre d'entraînement de référence.
-          </p>
-          <p class="text-gray-300">
-            Aujourd’hui, <strong>Krav Maga Worldwide</strong> continue de
-            diffuser cet art martial aux États-Unis et à l’international. Il est
-            enseigné à plus de 10 000 personnes et adopté par de nombreuses
-            agences de police et unités spéciales, y compris le
-            <strong>FBI</strong>, les
-            <strong>services secrets américains</strong> et le
-            <strong
-              >Bureau de régulation des alcools, tabacs et armes à feu</strong
-            >.
-          </p>
+        <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center">
+          <img
+        src="/images/kmw-logo.png"
+        alt="Logo Krav Maga Worldwide"
+        class="w-full rounded-lg shadow-lg"
+          />
+          <div>
+        <h2 class="text-3xl text-[#D20000] font-jura font-bold mb-4">
+          La fédération Worldwide
+        </h2>
+        <p class="text-gray-300 mb-4">
+          En 1981, l'<strong>Association de Krav Maga</strong> en Israël a
+          organisé le premier séminaire international pour instructeurs à
+          l'Institut Wingate. Parmi les participants figurait
+          <strong>Darren Levine</strong>, un passionné d'arts martiaux basé en
+          Californie.
+        </p>
+        <p class="text-gray-300 mb-4">
+          Sous la direction d'Imi Lichtenfeld, Levine et ses élèves ont adapté
+          le Krav Maga aux forces de police et aux militaires américains. En
+          1987, il a fondé l'<strong
+            >Association américaine de Krav Maga</strong
+          >, qui est rapidement devenue un centre d'entraînement de référence.
+        </p>
+        <p class="text-gray-300">
+          Aujourd'hui, <strong>Krav Maga Worldwide</strong> continue de
+          diffuser cet art martial aux États-Unis et à l'international. Il est
+          enseigné à plus de 10 000 personnes et adopté par de nombreuses
+          agences de police et unités spéciales, y compris le
+          <strong>FBI</strong>, les
+          <strong>services secrets américains</strong> et le
+          <strong
+            >Bureau de régulation des alcools, tabacs et armes à feu</strong
+          >.
+        </p>
+          </div>
         </div>
       </section>
+
       <!-- Section Contact -->
       <section
         id="contact"
@@ -281,7 +286,7 @@
           background-position: center;
         "
       >
-        <!-- Hero header -->
+        <!-- Titre contact -->
          
         <div v-scroll-animation class="mx-auto px-4 text-center relative py-16">
            
@@ -331,7 +336,8 @@
             Envoyer le message
           </button>
         </form>
-        <div v-scroll-animation>
+        <!-- Localisations -->
+        <div v-scroll-animation class="container mx-auto">
           <h3
             class="text-4xl text-[#D20000] font-jura font-bold mb-10"
           >
@@ -397,6 +403,17 @@
                 class="text-gray-300 hover:text-red-600"
                 >info@kravmaga-adrenaline.be</a
               >
+            </p>
+            <p class="text-gray-300">
+              <i class="fa fa-facebook-f mr-2 text-red-600"></i>
+              <a
+              href="https://www.facebook.com/krav.maga.adrenaline.bruxelles"
+              class="text-gray-300 hover:text-red-600 transition-colors pr-5"
+              title="Facebook"
+              alt="Facebook"
+              target="_blank"
+            > www.facebook.com/krav.maga.adrenaline.bruxelles
+            </a>
             </p>
           </div>
         </div>
